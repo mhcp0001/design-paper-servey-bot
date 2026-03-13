@@ -51,8 +51,10 @@ jobs:
             5. OpenAlex REST API (curl) で論文を検索する
                - APIキー: ${{ secrets.OPENALEX_API_KEY }}
             6. reports/ 配下の過去レポートを確認して重複を除外する
-            7. 選定した論文の日本語要約を生成する
-            8. reports/$(date +%Y-%m-%d).md に結果を保存する
+            7. 各論文のopen_accessフィールド（is_oa, oa_status, oa_url）とprimary_location.pdf_urlを取得する
+            8. 選定した論文の日本語要約を生成する
+            9. reports/$(date +%Y-%m-%d).md にMarkdownレポートを保存する
+            10. reports/$(date +%Y-%m-%d).json に構造化JSONを保存する（後続パイプライン用）
 
             検索日付範囲は過去7日間で自動計算してください。
             Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。

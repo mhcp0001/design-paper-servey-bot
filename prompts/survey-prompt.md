@@ -33,8 +33,14 @@ https://api.openalex.org/works?filter=primary_location.source.id:{SOURCE_ID},fro
 ```
 
 3. 全検索結果を統合し、DOI/OpenAlex Work IDで重複を排除する
-4. reports/ 配下の過去レポートを確認し、既出論文を除外する
-5. 取得した論文から重要なもの10本を選定する
+4. 各論文の `open_access` フィールドを取得する
+   - `open_access.is_oa`: OAかどうか
+   - `open_access.oa_status`: gold / green / hybrid / bronze / diamond / closed
+   - `open_access.oa_url`: OA論文のPDF/原文URL（nullの場合あり）
+   - `primary_location.pdf_url`: 直接PDFリンク（設定されている場合、`oa_url` より信頼性が高い）
+   - `primary_location.landing_page_url`: DOIランディングページ（フォールバック用）
+5. reports/ 配下の過去レポートを確認し、既出論文を除外する
+6. 取得した論文から重要なもの10本を選定する
 
 ## アブストラクト復元
 OpenAlexのアブストラクトは `abstract_inverted_index` 形式で返される。
@@ -68,6 +74,8 @@ Top 3 は詳細に、残り7本は簡潔に。各論文について:
 - 論文タイプ（empirical / conceptual / review / case study 等）
 - DOI
 - OpenAlex ID
+- OAステータス（gold / green / hybrid / bronze / diamond / closed）
+- PDF/原文リンク（OA論文: `open_access.oa_url` の直リンク / 非OA: "要機関アクセス" + DOIランディングページ）
 
 ### 2. 一言要約
 1〜2文の日本語要約
@@ -90,7 +98,45 @@ Top 3 は詳細に、残り7本は簡潔に。各論文について:
 - 社内カンファレンスや勉強会で紹介する際のフレーミング
 
 ## 最後に一覧表
-| 優先度 | 論文 | ジャーナル | 手法 | 一言要約 | 実務への影響 |
+| 優先度 | 論文 | ジャーナル | 手法 | 一言要約 | 実務への影響 | OA | PDF |
+- OA列: OAステータス（gold/green/hybrid/bronze/diamond/closed）
+- PDF列: OA論文は `[PDF](url)` リンク（`primary_location.pdf_url` 優先、なければ `open_access.oa_url`）、非OAは "要機関アクセス"
 
 ## 出力先
+
+### Markdownレポート
 `reports/YYYY-MM-DD.md` に保存すること（日付は実行日）。
+
+### JSON出力（機械可読）
+`reports/YYYY-MM-DD.json` にも保存すること。後続の自動処理パイプライン用。
+
+JSONスキーマ:
+```json
+{
+  "survey_date": "YYYY-MM-DD",
+  "date_range": {"from": "YYYY-MM-DD", "to": "YYYY-MM-DD"},
+  "papers": [
+    {
+      "rank": 1,
+      "title": "論文タイトル（原文）",
+      "authors": "筆頭著者 et al.",
+      "journal": "ジャーナル名",
+      "publication_date": "YYYY-MM",
+      "type": "empirical / conceptual / review / case study",
+      "doi": "https://doi.org/...",
+      "openalex_id": "https://openalex.org/W...",
+      "is_oa": true,
+      "oa_status": "gold / green / hybrid / bronze / diamond / closed",
+      "pdf_url": "PDFの直リンク or null",
+      "landing_page_url": "DOIランディングページURL",
+      "abstract": "復元済みアブストラクト全文",
+      "summary_ja": "日本語1-2文の要約",
+      "practical_relevance": "実務への影響（★評価）",
+      "search_layer": "layer1 / layer2 / layer3"
+    }
+  ]
+}
+```
+- `pdf_url` の優先順位: `primary_location.pdf_url` > `open_access.oa_url` > null
+- JSON は `jq` でパース可能な有効なJSONであること
+- Markdownレポートと同じ論文セットを含めること
