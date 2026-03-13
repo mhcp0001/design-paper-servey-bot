@@ -8,7 +8,7 @@
   1. Topic IDフィルタ（config/topics.json に定義）
   2. キーワード検索（prompts/survey-prompt.md に定義）
   3. ジャーナルISSN指定（config/sources.json に定義）
-- 結果は `reports/YYYY-MM-DD.md`（Markdown）と `reports/YYYY-MM-DD.json`（構造化JSON）の両方で保存する
+- 結果は `reports/YYYY-MM-DD/` フォルダに保存する（report.md, survey.json, OA論文PDF）
 - 既存レポートと重複する論文（DOI またはOpenAlex Work IDで判定）は除外する
 - 出力は全て日本語（論文タイトル・ジャーナル名は英語原文のまま）
 
@@ -40,7 +40,7 @@ def restore_abstract(inverted_index):
 
 ## ディレクトリ構成
 - `prompts/` — サーベイプロンプト（検索クエリ・選定基準）
-- `reports/` — 週次レポート出力先（.md + .json）
+- `reports/YYYY-MM-DD/` — 週次レポート出力先（report.md, survey.json, *.pdf）
 - `docs/` — 調査・設計ドキュメント
 - `config/` — Topic ID、Source ID 等の設定ファイル
 - `scripts/` — セットアップ・ユーティリティスクリプト

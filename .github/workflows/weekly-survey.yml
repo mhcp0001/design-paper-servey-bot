@@ -53,8 +53,10 @@ jobs:
             6. reports/ 配下の過去レポートを確認して重複を除外する
             7. 各論文のopen_accessフィールド（is_oa, oa_status, oa_url）とprimary_location.pdf_urlを取得する
             8. 選定した論文の日本語要約を生成する
-            9. reports/$(date +%Y-%m-%d).md にMarkdownレポートを保存する
-            10. reports/$(date +%Y-%m-%d).json に構造化JSONを保存する（後続パイプライン用）
+            9. reports/$(date +%Y-%m-%d)/ フォルダを作成する
+            10. reports/$(date +%Y-%m-%d)/report.md にMarkdownレポートを保存する
+            11. reports/$(date +%Y-%m-%d)/survey.json に構造化JSONを保存する
+            12. Top 3のOA論文PDFをダウンロードして reports/$(date +%Y-%m-%d)/ に保存する
 
             検索日付範囲は過去7日間で自動計算してください。
             Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。
@@ -90,7 +92,7 @@ jobs:
             git commit -m "docs: weekly design paper survey $(date +%Y-%m-%d)"
             git push
             echo "REPORT_CREATED=true" >> $GITHUB_ENV
-            echo "REPORT_FILE=reports/$(date +%Y-%m-%d).md" >> $GITHUB_ENV
+            echo "REPORT_FILE=reports/$(date +%Y-%m-%d)/report.md" >> $GITHUB_ENV
           else
             echo "No new report generated."
             echo "REPORT_CREATED=false" >> $GITHUB_ENV
@@ -106,6 +108,6 @@ jobs:
 
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             curl -H "Content-Type: application/json" \
-              -d "{\"content\": \"📖 **週次デザイン論文サーベイ完了** (${REPORT_DATE})\\nレポート: ${REPO_URL}/blob/main/reports/${REPORT_DATE}.md\"}" \
+              -d "{\"content\": \"📖 **週次デザイン論文サーベイ完了** (${REPORT_DATE})\\nレポート: ${REPO_URL}/tree/main/reports/${REPORT_DATE}\"}" \
               "$DISCORD_WEBHOOK_URL"
           fi

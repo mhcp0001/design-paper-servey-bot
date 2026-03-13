@@ -39,7 +39,7 @@ https://api.openalex.org/works?filter=primary_location.source.id:{SOURCE_ID},fro
    - `open_access.oa_url`: OA論文のPDF/原文URL（nullの場合あり）
    - `primary_location.pdf_url`: 直接PDFリンク（設定されている場合、`oa_url` より信頼性が高い）
    - `primary_location.landing_page_url`: DOIランディングページ（フォールバック用）
-5. reports/ 配下の過去レポートを確認し、既出論文を除外する
+5. reports/ 配下の過去レポート（各フォルダ内の `survey.json` または `report.md`）を確認し、既出論文を除外する
 6. 取得した論文から重要なもの10本を選定する
 
 ## アブストラクト復元
@@ -104,11 +104,14 @@ Top 3 は詳細に、残り7本は簡潔に。各論文について:
 
 ## 出力先
 
-### Markdownレポート
-`reports/YYYY-MM-DD.md` に保存すること（日付は実行日）。
+すべてのファイルを `reports/YYYY-MM-DD/` フォルダに保存すること（日付は実行日）。
+フォルダが存在しない場合は作成する。
 
-### JSON出力（機械可読）
-`reports/YYYY-MM-DD.json` にも保存すること。後続の自動処理パイプライン用。
+### 1. Markdownレポート
+`reports/YYYY-MM-DD/report.md` に保存。
+
+### 2. JSON出力（機械可読）
+`reports/YYYY-MM-DD/survey.json` に保存。後続の自動処理パイプライン用。
 
 JSONスキーマ:
 ```json
@@ -132,7 +135,8 @@ JSONスキーマ:
       "abstract": "復元済みアブストラクト全文",
       "summary_ja": "日本語1-2文の要約",
       "practical_relevance": "実務への影響（★評価）",
-      "search_layer": "layer1 / layer2 / layer3"
+      "search_layer": "layer1 / layer2 / layer3",
+      "pdf_downloaded": false
     }
   ]
 }
@@ -140,3 +144,23 @@ JSONスキーマ:
 - `pdf_url` の優先順位: `primary_location.pdf_url` > `open_access.oa_url` > null
 - JSON は `jq` でパース可能な有効なJSONであること
 - Markdownレポートと同じ論文セットを含めること
+
+### 3. 最優先論文のPDFダウンロード
+Top 3（rank 1-3）のうち、OA論文（`is_oa: true`）のPDFを自動ダウンロードする。
+
+手順:
+1. `pdf_url`（`primary_location.pdf_url` 優先、なければ `open_access.oa_url`）からcurlでダウンロード
+2. 保存先: `reports/YYYY-MM-DD/{OpenAlex Work ID}.pdf`（例: `W7134858137.pdf`）
+   - OpenAlex IDからプレフィックス `https://openalex.org/` を除いた部分をファイル名にする
+3. ダウンロード後の検証:
+   - Content-Typeが `application/pdf` であること
+   - ファイル先頭が `%PDF-` で始まること（`head -c 5` で確認）
+   - ファイルサイズが 10KB 以上 50MB 以下であること
+4. 検証に失敗した場合はファイルを削除し、JSONの `pdf_downloaded` を `false` のままにする
+5. 成功した場合は JSONの `pdf_downloaded` を `true` に更新する
+6. 各ダウンロード間に1秒のスリープを入れる
+
+注意:
+- 非OA論文（`is_oa: false`）はダウンロードしない
+- `pdf_url` が null の場合はスキップ
+- ダウンロード失敗はエラーにせず、ログ出力のみで続行する
