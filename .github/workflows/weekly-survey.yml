@@ -56,7 +56,7 @@ jobs:
             9. reports/$(date +%Y-%m-%d)/ フォルダを作成する
             10. reports/$(date +%Y-%m-%d)/report.md にMarkdownレポートを保存する
             11. reports/$(date +%Y-%m-%d)/survey.json に構造化JSONを保存する
-            12. Top 3のOA論文PDFをダウンロードして reports/$(date +%Y-%m-%d)/ に保存する
+            12. 選定した全論文のうちOA論文のPDFをダウンロードして reports/$(date +%Y-%m-%d)/ に保存する
 
             検索日付範囲は過去7日間で自動計算してください。
             Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。

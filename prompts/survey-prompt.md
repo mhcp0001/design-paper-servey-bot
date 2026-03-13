@@ -145,8 +145,8 @@ JSONスキーマ:
 - JSON は `jq` でパース可能な有効なJSONであること
 - Markdownレポートと同じ論文セットを含めること
 
-### 3. 最優先論文のPDFダウンロード
-Top 3（rank 1-3）のうち、OA論文（`is_oa: true`）のPDFを自動ダウンロードする。
+### 3. 選定論文のPDFダウンロード
+選定した全論文（rank 1-10）のうち、OA論文（`is_oa: true`）のPDFを自動ダウンロードする。
 
 手順:
 1. `pdf_url`（`primary_location.pdf_url` 優先、なければ `open_access.oa_url`）からcurlでダウンロード
