@@ -1,6 +1,205 @@
 {
   "_comment": "初回セットアップ時にdiscover-topics.ymlワークフローで自動生成される。手動で編集も可。",
-  "topics": [],
+  "topics": [
+    {
+      "id": "T10003",
+      "display_name": "Innovation and Knowledge Management",
+      "subfield": "Strategy and Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 102305,
+      "matched_keyword": "business model innovation"
+    },
+    {
+      "id": "T12885",
+      "display_name": "Digital Innovation in Industries",
+      "subfield": "Management of Technology and Innovation",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 157040,
+      "matched_keyword": "business model innovation"
+    },
+    {
+      "id": "T12786",
+      "display_name": "Innovation and Socioeconomic Development",
+      "subfield": "Business and International Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 76870,
+      "matched_keyword": "business model innovation"
+    },
+    {
+      "id": "T13151",
+      "display_name": "Business Strategies and Innovation",
+      "subfield": "Strategy and Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 44127,
+      "matched_keyword": "business model canvas"
+    },
+    {
+      "id": "T10672",
+      "display_name": "Design Education and Practice",
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "works_count": 82357,
+      "matched_keyword": "design thinking management"
+    },
+    {
+      "id": "T11114",
+      "display_name": "Service and Product Innovation",
+      "subfield": "Marketing",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 42167,
+      "matched_keyword": "service-dominant logic"
+    },
+    {
+      "id": "T11726",
+      "display_name": "Organizational Management and Innovation",
+      "subfield": "Organizational Behavior and Human Resource Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 141331,
+      "matched_keyword": "innovation management"
+    },
+    {
+      "id": "T11530",
+      "display_name": "Business and Management Studies",
+      "subfield": "Information Systems and Management",
+      "field": "Decision Sciences",
+      "domain": "Social Sciences",
+      "works_count": 282810,
+      "matched_keyword": "innovation management"
+    },
+    {
+      "id": "T10880",
+      "display_name": "Environmental Sustainability in Business",
+      "subfield": "Marketing",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 99032,
+      "matched_keyword": "innovation management"
+    },
+    {
+      "id": "T14147",
+      "display_name": "Innovative Approaches in Technology and Social Development",
+      "subfield": "Management of Technology and Innovation",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 56893,
+      "matched_keyword": "open innovation"
+    },
+    {
+      "id": "T11675",
+      "display_name": "Open Source Software Innovations",
+      "subfield": "Computer Science Applications",
+      "field": "Computer Science",
+      "domain": "Physical Sciences",
+      "works_count": 35922,
+      "matched_keyword": "open innovation"
+    },
+    {
+      "id": "T13163",
+      "display_name": "Organizational Learning and Leadership",
+      "subfield": "Organizational Behavior and Human Resource Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 49755,
+      "matched_keyword": "systems thinking organizational"
+    },
+    {
+      "id": "T10119",
+      "display_name": "Sustainability and Climate Change Governance",
+      "subfield": "Global and Planetary Change",
+      "field": "Environmental Science",
+      "domain": "Physical Sciences",
+      "works_count": 40658,
+      "matched_keyword": "sustainability transitions"
+    },
+    {
+      "id": "T12639",
+      "display_name": "Global Energy and Sustainability Research",
+      "subfield": "Renewable Energy, Sustainability and the Environment",
+      "field": "Energy",
+      "domain": "Physical Sciences",
+      "works_count": 179416,
+      "matched_keyword": "sustainability transitions"
+    },
+    {
+      "id": "T11437",
+      "display_name": "Digital Platforms and Economics",
+      "subfield": "Strategy and Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 63327,
+      "matched_keyword": "platform strategy ecosystem"
+    },
+    {
+      "id": "T10058",
+      "display_name": "Entrepreneurship Studies and Influences",
+      "subfield": "Management of Technology and Innovation",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 162561,
+      "matched_keyword": "social innovation"
+    },
+    {
+      "id": "T14389",
+      "display_name": "Innovation, Technology, and Society",
+      "subfield": "Sociology and Political Science",
+      "field": "Social Sciences",
+      "domain": "Social Sciences",
+      "works_count": 67038,
+      "matched_keyword": "social innovation"
+    },
+    {
+      "id": "T10539",
+      "display_name": "Sustainable Supply Chain Management",
+      "subfield": "Strategy and Management",
+      "field": "Business, Management and Accounting",
+      "domain": "Social Sciences",
+      "works_count": 79328,
+      "matched_keyword": "design management"
+    },
+    {
+      "id": "T11024",
+      "display_name": "Information Systems Theories and Implementation",
+      "subfield": "Sociology and Political Science",
+      "field": "Social Sciences",
+      "domain": "Social Sciences",
+      "works_count": 38569,
+      "matched_keyword": "design science research"
+    },
+    {
+      "id": "T14357",
+      "display_name": "Architecture, Design, and Social History",
+      "subfield": "Conservation",
+      "field": "Arts and Humanities",
+      "domain": "Social Sciences",
+      "works_count": 76286,
+      "matched_keyword": "design science research"
+    },
+    {
+      "id": "T14487",
+      "display_name": "Science and Science Education",
+      "subfield": "Political Science and International Relations",
+      "field": "Social Sciences",
+      "domain": "Social Sciences",
+      "works_count": 70871,
+      "matched_keyword": "design science research"
+    },
+    {
+      "id": "T13033",
+      "display_name": "Social Sciences and Governance",
+      "subfield": "Urban Studies",
+      "field": "Social Sciences",
+      "domain": "Social Sciences",
+      "works_count": 302125,
+      "matched_keyword": "social innovation"
+    }
+  ],
   "search_terms_for_discovery": [
     "business model innovation",
     "business model canvas",
