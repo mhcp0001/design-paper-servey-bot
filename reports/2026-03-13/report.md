@@ -280,26 +280,26 @@
 
 ---
 
-### Rank 10: Temporal Viability Theory: A Cybernetic Framework for Time-Bound Viability in Socio-Technical and Algorithmic Systems
+### Rank 10: From Organizational Resilience Capability to Firm Performance: A Time-Lagged Investigation
 
 | 項目 | 内容 |
 |------|------|
-| 著者 | Camilo Osejo-Bucheli |
-| ジャーナル | Systems Research and Behavioral Science |
+| 著者 | Yi-Ying Chang et al. |
+| ジャーナル | Journal of Product Innovation Management |
 | 発表年月 | 2026-03 |
-| 論文タイプ | conceptual |
-| DOI | https://doi.org/10.1002/sres.70036 |
-| OpenAlex ID | https://openalex.org/W7134199464 |
-| OAステータス | closed |
-| PDF/原文 | 要機関アクセス: [DOI](https://doi.org/10.1002/sres.70036) |
+| 論文タイプ | empirical |
+| DOI | https://doi.org/10.1111/jpim.70035 |
+| OpenAlex ID | https://openalex.org/W7134170365 |
+| OAステータス | hybrid |
+| PDF/原文 | [DOI Landing Page](https://doi.org/10.1111/jpim.70035)（要機関アクセス） |
 
-**一言要約**: ヴァイアブル・システム・モデル（VSM）を時間軸で再概念化し、社会技術系・アルゴリズム系の持続可能性は「時間的生存力」として測定・管理できるという新しいサイバネティクス理論を提示。
+**一言要約**: 平時から構築した組織レジリエンス能力が危機時においても企業業績を高めるメカニズムを解明。台湾大企業の2波縦断データにより、漸進的・急進的イノベーション能力が媒介変数として機能し、戦略的HRM実践がその連鎖を強化することを実証した研究。
 
-**実務的ポイント**: 長期ビジョン設計において「組織・システムがどのくらいの時間スパンで生存し続けられるか」という視点を定量的に組み込む際の理論的基盤として活用可能。
+**実務的ポイント**: 大企業（日立のような多部門企業）が平時から組織レジリエンス能力を戦略的に育成し、危機対応とイノベーション推進を同時に達成するための経営設計フレームワークとして活用可能。戦略的HRM設計に直接接続できる。
 
-**理論的貢献**: Stafford BeerのVSMを拡張し「時間的生存力演算子」を提案。組織サイバネティクスに時間的次元を正式に組み込んだ先駆的研究。
+**理論的貢献**: 組織レジリエンス研究（Sutcliffe & Vogus）とダイナミック・ケイパビリティ論（Teece）を統合し、「平時の能力構築→危機時の媒介→業績」という時間差因果モデルを初めて実証。
 
-**限界**: 概念フレームワーク論文であり、実証的検証は今後の課題。
+**限界**: 台湾大企業のパネルデータに依存しており、SMEや異なる文化圏への一般化に留意が必要。危機の種類（金融・自然災害等）による影響差は未検討。
 
 ---
 
@@ -316,7 +316,7 @@
 | 7 | Cumulative processes in multi-system transitions | Environmental Innovation and Societal Transitions | empirical | バイオメタン移行：リンケージシステムと成長限界の実証 | ★★★★☆ | hybrid | [DOI](https://doi.org/10.1016/j.eist.2026.101124) |
 | 8 | Human-AI decision spectrum | Technovation | conceptual | 人間とAIの意思決定分担スペクトラムの概念化 | ★★★★☆ | hybrid | 要機関アクセス |
 | 9 | AI-driven dynamic capabilities: micro-foundations | Management Decision | empirical | SMEにおけるAI駆動ダイナミック・ケイパビリティのマイクロ基盤（質的） | ★★★★☆ | closed | 要機関アクセス |
-| 10 | Temporal Viability Theory | Systems Research and Behavioral Science | conceptual | 社会技術系の時間的生存力を定義するサイバネティクス理論 | ★★★☆☆ | closed | 要機関アクセス |
+| 10 | From Organizational Resilience Capability to Firm Performance | Journal of Product Innovation Management | empirical | 組織レジリエンス能力→イノベーション能力媒介→業績の時間差実証（台湾大企業） | ★★★★☆ | hybrid | 要機関アクセス |
 
 ---
 
