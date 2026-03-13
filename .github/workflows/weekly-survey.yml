@@ -1,0 +1,109 @@
+name: Weekly Design Paper Survey
+
+on:
+  schedule:
+    # 毎週月曜 0:00 UTC = 日本時間 9:00
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate config
+        run: |
+          # topics.json にTopic IDが設定されているか確認
+          TOPIC_COUNT=$(python3 -c "import json; d=json.load(open('config/topics.json')); print(len(d.get('topics',[])))")
+          if [ "$TOPIC_COUNT" -eq "0" ]; then
+            echo "::warning::No Topic IDs configured. Run 'Discover Topic IDs' workflow first."
+            echo "Proceeding with keyword search only."
+          else
+            echo "Found $TOPIC_COUNT Topic IDs configured."
+          fi
+
+      - name: Run Claude Code - Paper Survey
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            今日は $(date +%Y-%m-%d) です。
+            prompts/survey-prompt.md の指示に従って、
+            過去7日間のビジネスデザイン・イノベーション論文サーベイを実行してください。
+
+            実行手順:
+            1. prompts/survey-prompt.md を読む
+            2. CLAUDE.md のルールに従う
+            3. config/topics.json からTopic IDを読み込む
+            4. config/sources.json からSource IDを読み込む
+            5. OpenAlex REST API (curl) で論文を検索する
+               - APIキー: ${{ secrets.OPENALEX_API_KEY }}
+            6. reports/ 配下の過去レポートを確認して重複を除外する
+            7. 選定した論文の日本語要約を生成する
+            8. reports/$(date +%Y-%m-%d).md に結果を保存する
+
+            検索日付範囲は過去7日間で自動計算してください。
+            Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。
+          show_full_output: true
+          settings: |
+            {
+              "defaultMode": "dontAsk",
+              "permissions": {
+                "allow": [
+                  "Bash(*)",
+                  "Read",
+                  "Write",
+                  "Edit",
+                  "Glob",
+                  "Grep",
+                  "WebFetch(*)",
+                  "WebSearch(*)"
+                ]
+              }
+            }
+          claude_args: "--model claude-sonnet-4-6 --max-turns 25"
+
+      - name: Commit and push report
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain reports/)" ]; then
+            git add reports/
+            git commit -m "docs: weekly design paper survey $(date +%Y-%m-%d)"
+            git push
+            echo "REPORT_CREATED=true" >> $GITHUB_ENV
+            echo "REPORT_FILE=reports/$(date +%Y-%m-%d).md" >> $GITHUB_ENV
+          else
+            echo "No new report generated."
+            echo "REPORT_CREATED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Notify Discord
+        if: env.REPORT_CREATED == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          REPO_URL="https://github.com/${{ github.repository }}"
+          REPORT_DATE=$(date +%Y-%m-%d)
+
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl -H "Content-Type: application/json" \
+              -d "{\"content\": \"📖 **週次デザイン論文サーベイ完了** (${REPORT_DATE})\\nレポート: ${REPO_URL}/blob/main/reports/${REPORT_DATE}.md\"}" \
+              "$DISCORD_WEBHOOK_URL"
+          fi

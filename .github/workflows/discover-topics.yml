@@ -1,0 +1,95 @@
+name: Discover Topic IDs
+
+on:
+  workflow_dispatch: # 手動実行のみ
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Claude Code - Topic Discovery
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            OpenAlex APIを使って、ビジネスデザイン・イノベーション領域の
+            関連Topic IDとSource IDを探索してください。
+
+            ## 手順
+
+            ### 1. Topic ID探索
+            config/topics.json の search_terms_for_discovery の各キーワードで
+            OpenAlex Topics APIを検索し、関連するTopic IDを収集する。
+
+            ```bash
+            curl -s "https://api.openalex.org/topics?search=KEYWORD&per_page=5&api_key=${{ secrets.OPENALEX_API_KEY }}"
+            ```
+
+            各結果から以下を記録:
+            - Topic ID (T形式)
+            - display_name
+            - subfield, field, domain
+            - works_count
+
+            works_count が 1,000 以上のトピックのみ採用する。
+            最終的に 15-25 個のTopic IDに絞り込む。
+
+            ### 2. Source ID探索
+            config/sources.json の各ジャーナルISSNでSource IDを取得する。
+
+            ```bash
+            curl -s "https://api.openalex.org/sources?filter=issn:ISSN&api_key=${{ secrets.OPENALEX_API_KEY }}"
+            ```
+
+            ### 3. 設定ファイル更新
+            - config/topics.json の topics 配列を更新
+            - config/sources.json の各エントリの source_id を更新
+
+            ### 4. テスト検索
+            更新した設定で1つのTopic IDと1つのSource IDを使い、
+            実際にworks検索を行い結果が返ることを確認する。
+
+            CLAUDE.md のルールに従ってください。
+          show_full_output: true
+          settings: |
+            {
+              "defaultMode": "dontAsk",
+              "permissions": {
+                "allow": [
+                  "Bash(*)",
+                  "Read",
+                  "Write",
+                  "Edit",
+                  "Glob",
+                  "Grep",
+                  "WebFetch(*)",
+                  "WebSearch(*)"
+                ]
+              }
+            }
+          claude_args: "--model claude-sonnet-4-6 --max-turns 25"
+
+      - name: Commit config updates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain config/)" ]; then
+            git add config/
+            git commit -m "chore: discover OpenAlex topic and source IDs"
+            git push
+            echo "Configuration updated successfully."
+          else
+            echo "No configuration changes detected."
+          fi

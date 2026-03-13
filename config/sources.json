@@ -1,0 +1,21 @@
+{
+  "_comment": "対象ジャーナルのISSNリスト。Source IDはdiscover-topics.ymlで自動取得される。",
+  "journals": [
+    {"name": "Design Studies", "issn": "0142-694X", "source_id": null, "category": "design_research"},
+    {"name": "She Ji: The Journal of Design, Economics, and Innovation", "issn": "2405-8726", "source_id": null, "category": "design_research"},
+    {"name": "Design Issues", "issn": "0747-9360", "source_id": null, "category": "design_research"},
+    {"name": "Design Science", "issn": "2053-4701", "source_id": null, "category": "design_research"},
+    {"name": "Design Management Journal", "issn": "1045-7194", "source_id": null, "category": "design_management"},
+    {"name": "Journal of Service Research", "issn": "1094-6705", "source_id": null, "category": "service"},
+    {"name": "Journal of Service Management", "issn": "1757-5818", "source_id": null, "category": "service"},
+    {"name": "Research Policy", "issn": "0048-7333", "source_id": null, "category": "innovation"},
+    {"name": "Technovation", "issn": "0166-4972", "source_id": null, "category": "innovation"},
+    {"name": "Journal of Product Innovation Management", "issn": "0737-6782", "source_id": null, "category": "innovation"},
+    {"name": "Strategic Management Journal", "issn": "0143-2095", "source_id": null, "category": "strategy"},
+    {"name": "Long Range Planning", "issn": "0024-6301", "source_id": null, "category": "strategy"},
+    {"name": "Academy of Management Review", "issn": "0363-7425", "source_id": null, "category": "strategy"},
+    {"name": "Harvard Business Review", "issn": "0017-8012", "source_id": null, "category": "general"},
+    {"name": "Environmental Innovation and Societal Transitions", "issn": "2210-4224", "source_id": null, "category": "transition"},
+    {"name": "Systems Research and Behavioral Science", "issn": "1092-7026", "source_id": null, "category": "systems"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_comment": "初回セットアップ時にdiscover-topics.ymlワークフローで自動生成される。手動で編集も可。",
+  "topics": [],
+  "search_terms_for_discovery": [
+    "business model innovation",
+    "business model canvas",
+    "design thinking management",
+    "design management",
+    "service design innovation",
+    "service-dominant logic",
+    "innovation management",
+    "open innovation",
+    "disruptive innovation",
+    "strategic management dynamic capabilities",
+    "strategic foresight",
+    "speculative design futures",
+    "design fiction",
+    "systems thinking organizational",
+    "sustainability transitions",
+    "transition management sociotechnical",
+    "design science research",
+    "value proposition design",
+    "platform strategy ecosystem",
+    "social innovation",
+    "lean startup entrepreneurship",
+    "scenario planning"
+  ]
+}
