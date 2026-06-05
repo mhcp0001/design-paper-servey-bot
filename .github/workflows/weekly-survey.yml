@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -35,31 +35,43 @@ jobs:
           fi
 
       - name: Run Claude Code - Paper Survey
+        id: claude
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            今日は $(date +%Y-%m-%d) です。
             prompts/survey-prompt.md の指示に従って、
             過去7日間のビジネスデザイン・イノベーション論文サーベイを実行してください。
 
             実行手順:
-            1. prompts/survey-prompt.md を読む
-            2. CLAUDE.md のルールに従う
-            3. config/topics.json からTopic IDを読み込む
-            4. config/sources.json からSource IDを読み込む
-            5. OpenAlex REST API (curl) で論文を検索する
+            1. まず Bash で `date +%F` を実行し、得られた値を本日の日付（YYYY-MM-DD）として使う。
+               日付を文脈から推測してはならない。以降の手順の「<本日の日付>」はこの値を指す。
+            2. prompts/survey-prompt.md を読む
+            3. CLAUDE.md のルールに従う
+            4. config/topics.json からTopic IDを読み込む
+            5. config/sources.json からSource IDを読み込む
+            6. OpenAlex REST API (curl) で論文を検索する
                - APIキー: ${{ secrets.OPENALEX_API_KEY }}
-            6. reports/ 配下の過去レポートを確認して重複を除外する
-            7. 各論文のopen_accessフィールド（is_oa, oa_status, oa_url）とprimary_location.pdf_urlを取得する
-            8. 選定した論文の日本語要約を生成する
-            9. reports/$(date +%Y-%m-%d)/ フォルダを作成する
-            10. reports/$(date +%Y-%m-%d)/report.md にMarkdownレポートを保存する
-            11. reports/$(date +%Y-%m-%d)/survey.json に構造化JSONを保存する
-            12. 選定した全論文のうちOA論文のPDFをダウンロードして reports/$(date +%Y-%m-%d)/ に保存する
+            7. reports/ 配下の過去レポートを確認して重複を除外する
+            8. 各論文のopen_accessフィールド（is_oa, oa_status, oa_url）とprimary_location.pdf_urlを取得する
+            9. 選定した論文の日本語要約を生成する
+            10. prompts/survey-prompt.md の「出力先」章の仕様に従い、Write ツールで
+                reports/<本日の日付>/ 配下に report.md・survey.json・OA論文PDF を実ファイルとして生成する
 
             検索日付範囲は過去7日間で自動計算してください。
             Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。
+
+            【最重要・厳守事項】
+            - レポートやJSONの内容を応答本文に貼り付けるだけでは「未完了」とみなす。
+              必ず Write ツールを使って実ファイルとしてディスクに保存すること。
+            - 以下のファイルを必ず Write ツールで作成すること（応答への記載だけでは不可）:
+                - reports/<本日の日付>/report.md
+                - reports/<本日の日付>/survey.json
+            - 各ファイルを書き込んだ直後に、必ず Bash で `ls -la reports/<本日の日付>/` を実行し、
+              ファイルが実在することを自分で確認してから次に進むこと。
+            - 最後に必ず Bash で `git status --porcelain reports/` を実行し、変更が検出されることを
+              確認すること。変更が検出されなければファイル書き込みが失敗しているので、Write をやり直すこと。
+            - ファイル出力仕様の正（source of truth）は prompts/survey-prompt.md の「出力先」章。
           show_full_output: true
           settings: |
             {
@@ -79,23 +91,63 @@ jobs:
             }
           claude_args: "--model claude-sonnet-4-6 --max-turns 40"
 
+      - name: Fallback - materialize report from Claude result
+        run: |
+          set -euo pipefail
+          DATE="$(date +%F)"
+          OUT_DIR="reports/${DATE}"
+          OUT_FILE="${OUT_DIR}/report.md"
+
+          # 根本対策A（Claude による Write）が効いていれば何もしない
+          if [ -n "$(git status --porcelain reports/ 2>/dev/null)" ] || [ -f "${OUT_FILE}" ]; then
+            echo "Report already written by Claude. Skipping fallback."
+            exit 0
+          fi
+
+          echo "::warning::Claude did not write report files. Falling back to result extraction."
+          LOG_JSON="${{ steps.claude.outputs.execution_file }}"
+          if [ -z "${LOG_JSON}" ] || [ ! -f "${LOG_JSON}" ]; then
+            echo "::error::No execution output file found; cannot fallback."
+            exit 1
+          fi
+
+          mkdir -p "${OUT_DIR}"
+          # execution_file は stream-json のイベント配列。result イベントの .result を抽出。
+          # 単一オブジェクト形式（.result）にもフォールバック対応する。
+          jq -r '
+            if type=="array"
+            then ([.[] | select(.type=="result") | .result] | last)
+            else .result end // empty
+          ' "${LOG_JSON}" > "${OUT_FILE}"
+
+          if [ ! -s "${OUT_FILE}" ]; then
+            echo "::error::Extracted report is empty."
+            rm -f "${OUT_FILE}"
+            exit 1
+          fi
+
+          echo "FALLBACK_USED=true" >> "$GITHUB_ENV"
+          echo "Fallback report written to ${OUT_FILE} (degraded: survey.json/PDF are missing)."
+
       - name: Commit and push report
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -n "$(git status --porcelain reports/)" ]; then
             git add reports/
-            git commit -m "docs: weekly design paper survey $(date +%Y-%m-%d)"
+            git commit -m "docs: weekly design paper survey $(date +%F)"
             git push
-            echo "REPORT_CREATED=true" >> $GITHUB_ENV
-            echo "REPORT_FILE=reports/$(date +%Y-%m-%d)/report.md" >> $GITHUB_ENV
+            echo "REPORT_CREATED=true" >> "$GITHUB_ENV"
+            echo "REPORT_FILE=reports/$(date +%F)/report.md" >> "$GITHUB_ENV"
           else
-            echo "No new report generated."
-            echo "REPORT_CREATED=false" >> $GITHUB_ENV
+            # Claude の Write もフォールバックも何も残さなかった = 異常。緑のまま沈黙させない。
+            echo "::error::No report files present after Claude run AND fallback. Failing the job."
+            exit 1
           fi
 
       - name: Notify Discord
@@ -104,10 +156,16 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           REPO_URL="https://github.com/${{ github.repository }}"
-          REPORT_DATE=$(date +%Y-%m-%d)
+          REPORT_DATE="$(date +%F)"
+
+          if [ "${FALLBACK_USED:-false}" = "true" ]; then
+            CONTENT="⚠️ **週次デザイン論文サーベイ: フォールバック生成** (${REPORT_DATE})\\nClaudeが実ファイルを書き込めず、応答テキストからreport.mdのみ復元しました（survey.json・PDFは欠落）。\\nレポート: ${REPO_URL}/tree/main/reports/${REPORT_DATE}"
+          else
+            CONTENT="📖 **週次デザイン論文サーベイ完了** (${REPORT_DATE})\\nレポート: ${REPO_URL}/tree/main/reports/${REPORT_DATE}"
+          fi
 
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             curl -H "Content-Type: application/json" \
-              -d "{\"content\": \"📖 **週次デザイン論文サーベイ完了** (${REPORT_DATE})\\nレポート: ${REPO_URL}/tree/main/reports/${REPORT_DATE}\"}" \
+              -d "{\"content\": \"${CONTENT}\"}" \
               "$DISCORD_WEBHOOK_URL"
           fi
