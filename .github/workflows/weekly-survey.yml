@@ -5,6 +5,11 @@ on:
     # 毎週月曜 0:00 UTC = 日本時間 9:00
     - cron: '0 0 * * 1'
   workflow_dispatch: # 手動実行も可能
+    inputs:
+      survey_date:
+        description: '調査基準日 YYYY-MM-DD（省略時は実行日。過去週のバックフィル用）'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -34,6 +39,20 @@ jobs:
             echo "Found $TOPIC_COUNT Topic IDs configured."
           fi
 
+      - name: Resolve survey date
+        run: |
+          set -euo pipefail
+          SURVEY_DATE="${{ inputs.survey_date }}"
+          if [ -z "${SURVEY_DATE}" ]; then
+            SURVEY_DATE="$(date +%F)"
+          fi
+          if ! echo "${SURVEY_DATE}" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$' || ! date -d "${SURVEY_DATE}" +%F >/dev/null 2>&1; then
+            echo "::error::Invalid survey_date: '${SURVEY_DATE}' (expected YYYY-MM-DD)"
+            exit 1
+          fi
+          echo "SURVEY_DATE=${SURVEY_DATE}" >> "$GITHUB_ENV"
+          echo "Survey date resolved: ${SURVEY_DATE}"
+
       - name: Run Claude Code - Paper Survey
         id: claude
         uses: anthropics/claude-code-action@v1
@@ -44,8 +63,8 @@ jobs:
             過去7日間のビジネスデザイン・イノベーション論文サーベイを実行してください。
 
             実行手順:
-            1. まず Bash で `date +%F` を実行し、得られた値を本日の日付（YYYY-MM-DD）として使う。
-               日付を文脈から推測してはならない。以降の手順の「<本日の日付>」はこの値を指す。
+            1. 調査基準日は ${{ env.SURVEY_DATE }} です（ワークフローが確定済みの値。推測・変更してはならない）。
+               以降の手順の「<調査基準日>」はこの値を指す。
             2. prompts/survey-prompt.md を読む
             3. CLAUDE.md のルールに従う
             4. config/topics.json からTopic IDを読み込む
@@ -56,21 +75,24 @@ jobs:
             8. 各論文のopen_accessフィールド（is_oa, oa_status, oa_url）とprimary_location.pdf_urlを取得する
             9. 選定した論文の日本語要約を生成する
             10. prompts/survey-prompt.md の「出力先」章の仕様に従い、Write ツールで
-                reports/<本日の日付>/ 配下に report.md・survey.json・OA論文PDF を実ファイルとして生成する
+                reports/<調査基準日>/ 配下に report.md・survey.json・OA論文PDF を実ファイルとして生成する
 
-            検索日付範囲は過去7日間で自動計算してください。
+            検索日付範囲は <調査基準日> を終端とする過去7日間としてください
+            （開始日は Bash: `date -d "<調査基準日> -7 days" +%F` で計算）。
             Topic IDが未設定の場合はキーワード検索（層2）とジャーナル検索（層3）のみ実行してください。
 
             【最重要・厳守事項】
             - レポートやJSONの内容を応答本文に貼り付けるだけでは「未完了」とみなす。
               必ず Write ツールを使って実ファイルとしてディスクに保存すること。
             - 以下のファイルを必ず Write ツールで作成すること（応答への記載だけでは不可）:
-                - reports/<本日の日付>/report.md
-                - reports/<本日の日付>/survey.json
-            - 各ファイルを書き込んだ直後に、必ず Bash で `ls -la reports/<本日の日付>/` を実行し、
+                - reports/<調査基準日>/report.md
+                - reports/<調査基準日>/survey.json
+            - 各ファイルを書き込んだ直後に、必ず Bash で `ls -la reports/<調査基準日>/` を実行し、
               ファイルが実在することを自分で確認してから次に進むこと。
             - 最後に必ず Bash で `git status --porcelain reports/` を実行し、変更が検出されることを
               確認すること。変更が検出されなければファイル書き込みが失敗しているので、Write をやり直すこと。
+            - git add / git commit / git push は絶対に実行しないこと。コミットとpushは後続の
+              ワークフローステップが行う。作業ツリーに未コミットの変更が残った状態で終了するのが正しい。
             - ファイル出力仕様の正（source of truth）は prompts/survey-prompt.md の「出力先」章。
           show_full_output: true
           settings: |
@@ -94,7 +116,7 @@ jobs:
       - name: Fallback - materialize report from Claude result
         run: |
           set -euo pipefail
-          DATE="$(date +%F)"
+          DATE="${SURVEY_DATE}"
           OUT_DIR="reports/${DATE}"
           OUT_FILE="${OUT_DIR}/report.md"
 
@@ -140,10 +162,17 @@ jobs:
 
           if [ -n "$(git status --porcelain reports/)" ]; then
             git add reports/
-            git commit -m "docs: weekly design paper survey $(date +%F)"
+            git commit -m "docs: weekly design paper survey ${SURVEY_DATE}"
             git push
             echo "REPORT_CREATED=true" >> "$GITHUB_ENV"
-            echo "REPORT_FILE=reports/$(date +%F)/report.md" >> "$GITHUB_ENV"
+            echo "REPORT_FILE=reports/${SURVEY_DATE}/report.md" >> "$GITHUB_ENV"
+          elif [ -n "$(git log "origin/${GITHUB_REF_NAME}..HEAD" --oneline -- reports/ 2>/dev/null)" ]; then
+            # 作業ツリーがクリーンでも、Claude が禁止を破って自分で commit した場合は未pushコミットが残る。
+            # その場合はレポートを失わないよう push だけ行う。
+            echo "::warning::Found unpushed local commit(s) touching reports/ (Claude committed directly). Pushing them."
+            git push
+            echo "REPORT_CREATED=true" >> "$GITHUB_ENV"
+            echo "REPORT_FILE=reports/${SURVEY_DATE}/report.md" >> "$GITHUB_ENV"
           else
             # Claude の Write もフォールバックも何も残さなかった = 異常。緑のまま沈黙させない。
             echo "::error::No report files present after Claude run AND fallback. Failing the job."
@@ -156,7 +185,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           REPO_URL="https://github.com/${{ github.repository }}"
-          REPORT_DATE="$(date +%F)"
+          REPORT_DATE="${SURVEY_DATE}"
 
           if [ "${FALLBACK_USED:-false}" = "true" ]; then
             CONTENT="⚠️ **週次デザイン論文サーベイ: フォールバック生成** (${REPORT_DATE})\\nClaudeが実ファイルを書き込めず、応答テキストからreport.mdのみ復元しました（survey.json・PDFは欠落）。\\nレポート: ${REPO_URL}/tree/main/reports/${REPORT_DATE}"
@@ -167,5 +196,17 @@ jobs:
           if [ -n "$DISCORD_WEBHOOK_URL" ]; then
             curl -H "Content-Type: application/json" \
               -d "{\"content\": \"${CONTENT}\"}" \
+              "$DISCORD_WEBHOOK_URL"
+          fi
+
+      - name: Notify Discord on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            RUN_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            curl -H "Content-Type: application/json" \
+              -d "{\"content\": \"🔴 **週次デザイン論文サーベイ失敗** (${SURVEY_DATE:-日付不明})\\n実行ログ: ${RUN_URL}\"}" \
               "$DISCORD_WEBHOOK_URL"
           fi
