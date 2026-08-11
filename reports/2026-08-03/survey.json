@@ -141,7 +141,7 @@
     {
       "rank": 8,
       "title": "Systems Thinking in Practice (STiP): A Praxeology for Our Times",
-      "authors": "Ray Ison et al.",
+      "authors": "Ray Ison and Kevin Collins",
       "journal": "Systemic Practice and Action Research",
       "publication_date": "2026-07",
       "type": "conceptual",
@@ -152,10 +152,13 @@
       "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11213-026-09775-0.pdf",
       "landing_page_url": "https://doi.org/10.1007/s11213-026-09775-0",
       "abstract": "Peter Checkland's groundbreaking work on soft systems has been central to reframing understanding of human activity systems and emphasising the role of people in decision making. In this paper we explore some early influences on Checkland which led to the shift of systemicity to the process of inquiry into the world and also the framing choices resulting in a trap of human activity systems. We introduce Systems Thinking in Practice (STiP) as a praxeology—a systematic theory of practice oriented around the practitioner.",
-      "summary_ja": "ChecklandのSSM（ソフトシステム方法論）を継承しつつ、実践者の「実践知（プラクシス）」を中心に据えた「STiPプラクシオロジー」を提唱する。システム思考を「ツール」ではなく「実践の姿勢」として再定義する。",
+      "summary_ja": "ChecklandのSSM（ソフトシステム方法論）の系譜を批判的に検討し、「ハード／ソフト」の二元論をデュアリティ（対）へ再枠組み化することで、実践者と実践知（プラクシス）を中心に据える「STiPプラクシオロジー」を提唱する。オープン大学の55年にわたる教育・研究経験に基づき、システム思考を方法論中心から実践の学へ移すことを求める論文。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "概念・レビュー（オープン大学の教育研究経験にもとづく批判的省察）",
+      "source_strength": "medium",
+      "author_count": 2
     },
     {
       "rank": 9,
@@ -190,10 +193,13 @@
       "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40309-026-00290-y.pdf",
       "landing_page_url": "https://doi.org/10.1186/s40309-026-00290-y",
       "abstract": "As a fossil-dependent industrial system, the fashion and textile industry is operating outside safe planetary boundaries and requires a systemic sustainability transformation. This review focuses on natural textile colourants with two complementing aims: to examine how the present and future of natural colourants are discussed in the research literature, and to explore how these framings situate natural colourants in the larger context of a sustainability transformation, applying the Three Horizons framework.",
-      "summary_ja": "ファッション・テキスタイル産業の持続可能性転換を「Three Horizons（3H）フレームワーク」で分析する批判的レビュー。3Hフレームワークの実産業分析への適用例として、ロードマップ策定・ビジョンデザイン実務に役立つ。",
+      "summary_ja": "テキスタイル産業の持続可能性転換という文脈で、天然染料・天然色材に関する文献を再帰的主題分析とThree Horizons（3H）フレームワークで読み解いた批判的レビュー。天然色材は既存実践を問い直す再興領域である一方、合成染料の支配と消費者・生産者のマインドセット固定に阻まれており、（インフラ）構造とマインドセット双方のロックインおよびトレードオフの直視が必要と論じる。3Hを実際の素材領域に適用した具体例として参考になる。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "天然染料・天然色材に関する文献の批判的レビュー",
+      "source_strength": "medium",
+      "author_count": 3
     }
   ]
 }

@@ -11,6 +11,11 @@
 - 結果は `reports/YYYY-MM-DD/` フォルダに保存する（report.md, survey.json, OA論文PDF）
 - 既存レポートと重複する論文（DOI またはOpenAlex Work IDで判定）は除外する
 - 出力は全て日本語（論文タイトル・ジャーナル名は英語原文のまま）
+- `survey.json` の `abstract` は復元原文をそのまま格納する（要約・言い換え・補完は禁止）
+- 要約に書く数値（n=◯、◯社、◯名 等）は原文に根拠があるものだけにする。推測で補完しない
+- レポート生成後は `python3 scripts/validate_survey.py reports/<日付>/survey.json` を実行し、
+  ERROR がゼロであることを確認する
+- 詳細な記述ルールは `prompts/survey-prompt.md` の「記述の正確性ルール」章（R1〜R6）を参照
 
 ## API仕様メモ
 - 認証: `api_key` パラメータで渡す（GitHub Secrets: `OPENALEX_API_KEY`）

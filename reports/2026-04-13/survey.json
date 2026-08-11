@@ -141,7 +141,7 @@
     {
       "rank": 8,
       "title": "Strategy Jams: using design thinking to charter teams with compelling purpose and sound structure",
-      "authors": "Bethany K. Laursen et al.",
+      "authors": "Bethany Laursen et al.",
       "journal": "Frontiers in Psychology",
       "publication_date": "2026-04",
       "type": "empirical",
@@ -151,11 +151,14 @@
       "oa_status": "gold",
       "pdf_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1746557/pdf",
       "landing_page_url": "https://doi.org/10.3389/fpsyg.2026.1746557",
-      "abstract": "It is unclear how science facilitators can balance the amount of structure, content, and freedom they give to teams in chartering workshops. We propose that design thinking principles and activities can fill this need in team science. We piloted a team chartering workshop based on design thinking (a 'Strategy Jam') with five hybrid research/research support teams. We tracked chartering outcomes and team dynamics, finding that design thinking activities improved team purpose clarity, role structure, and collaborative commitment. The Strategy Jam format shows promise as a scalable intervention for team science and cross-disciplinary collaboration.",
-      "summary_ja": "デザイン思考を活用したチームチャーター策定ワークショップ「ストラテジー・ジャム」を5チームで試行し、目的の明確化・役割構造・協働コミットメントの改善効果を実証。構造と自由度のバランスをデザイン思考で最適化する実践的ファシリテーション手法として、学際的チームや新規事業チームの立ち上げに直接応用できる。",
+      "abstract": "It is unclear how science facilitators can balance the amount of structure, content, and freedom they give to teams in chartering workshops. We propose that design thinking principles and activities can fill this need in team science. We piloted a team chartering workshop based on design thinking (a “Strategy Jam”) with five hybrid research/research support teams. We tracked chartering outcomes and what led to them using a mixed methods, explanatory, longitudinal study design. Data were collected using the Team Diagnostic Survey and interviews with team leaders. Immediately after the Strategy Jam, teams’ scores for their compelling purpose increased by an average of 13%. For three of the four teams measured quantitatively, their sound structure scores increased by an average of 8% while one team’s score decreased by 11%. Qualitative analysis of interviews with all five teams revealed that design thinking factors were influential, along with contextual factors and generic factors common to any participatory workshop. An unknown follow up mechanism likely contributed to further gains and losses in chartering outcomes over time. In this pilot study, design thinking was an effective and efficient way to design a participatory chartering workshop. It was effective because it helped charter team purpose and structure along with team commitment, learning, and cohesion. It was efficient because a design thinking approach fulfilled five science facilitation functions at once: (1) structure the participation process, (2) structure the workshop process, (3) facilitate generic workshop factors (e.g., aligned choosing), (4) gain traction on chartering topics for ambiguous challenges, and (5) respond to context.",
+      "summary_ja": "デザイン思考を用いたチームチャーター策定ワークショップ「ストラテジー・ジャム」を5チームで試行したパイロット研究。目的（compelling purpose）スコアは平均13%上昇した一方、構造（sound structure）スコアは定量測定した4チーム中3チームで平均8%上昇・1チームは11%低下した。対照群が無く著者自身も信頼性の限界を明記しているため、効果は示唆にとどまる。構造と自由度のバランスをデザイン思考で設計する手法として参考になる。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "研究・研究支援チーム5チームのパイロット研究（うち定量測定は4チーム）",
+      "source_strength": "medium",
+      "author_count": 4
     },
     {
       "rank": 9,

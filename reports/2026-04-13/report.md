@@ -249,7 +249,7 @@ Research PolicyにおけるAIと科学生産性の大規模実証研究として
 - **OAステータス:** gold
 - **PDF:** [PDF](https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1746557/pdf)
 
-**一言要約:** デザイン思考を活用したチームチャーター（目的・ルール・役割の策定）ワークショップ「ストラテジー・ジャム」を5チームで試行し、構造と自由度のバランスをデザイン思考で最適化する実践手法を確立した。
+**一言要約:** デザイン思考を用いたチームチャーター（目的・ルール・役割の策定）ワークショップ「ストラテジー・ジャム」を5チームで試行したパイロット研究。目的（compelling purpose）スコアは平均13%上昇した一方、構造（sound structure）スコアは定量測定した4チーム中3チームで平均8%上昇・1チームは11%低下した。対照群が無く著者自身も信頼性の限界を明記しているため、効果は示唆にとどまる。
 
 **実務的ポイント:** プロジェクト立ち上げ時のキックオフワークショップやチーム憲章策定の場でデザイン思考メソッドを活用する、具体的なファシリテーションパターンとして即実践に移せる。特に学際的チームや新規事業チームの立ち上げに有用。
 
@@ -308,7 +308,7 @@ Research PolicyにおけるAIと科学生産性の大規模実証研究として
 | 5 | Cognitive Implications of GenAI in Design Thinking（Unkelos-Shpigel et al.） | Media and Communication | empirical/事例 | GenAIがDTの認知に与える二律背反効果を実証 | ★★★★☆ | gold | 要機関アクセス |
 | 6 | Sustainability experiment: Shenzhen waste management（Wang et al.） | EIST | empirical/事例 | 市政府主導の持続可能性実験の成功条件を解明 | ★★★★☆ | hybrid | 要機関アクセス |
 | 7 | Mapping AI research in cultural & creative industries（Vocino） | Technovation | review/文献計量 | CCIのAI研究の知的構造と発展軸を整理 | ★★★☆☆ | hybrid | 要機関アクセス |
-| 8 | Strategy Jams: design thinking for team chartering（Laursen et al.） | Frontiers in Psychology | empirical/パイロット | DT活用チームチャーターの実践手法を確立 | ★★★★☆ | gold | [PDF](https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1746557/pdf) |
+| 8 | Strategy Jams: design thinking for team chartering（Laursen et al.） | Frontiers in Psychology | empirical/パイロット(5チーム) | DT活用チームチャーターの手法を試行、効果は示唆どまり | ★★★★☆ | gold | [PDF](https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1746557/pdf) |
 | 9 | Systems-Based Organisational Resilience Framework（Manzini et al.） | Systems Research & Behavioral Sci | empirical/Delphi | システム思考×レジリエンスの統合FWをデルファイ検証 | ★★★☆☆ | hybrid | 要機関アクセス |
 | 10 | Scenario Planning for Advanced Air Mobility（Shaheen et al.） | Systems | empirical/混合法 | 先進航空モビリティの政策シナリオ計画手法を提示 | ★★★☆☆ | gold | [PDF](https://www.mdpi.com/2079-8954/14/4/423/pdf?version=1775811570) |
 

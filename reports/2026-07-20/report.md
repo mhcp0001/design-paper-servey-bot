@@ -155,24 +155,26 @@
 
 - **著者**: Fatma Demir et al.
 - **ジャーナル**: Journal of Innovation Management, 2026-07
-- **論文タイプ**: empirical
+- **論文タイプ**: empirical（質的・探索的／Gioia法）
+- **分析単位**: デザインシンキング・コンサルタント7名への半構造化専門家インタビュー
 - **DOI**: https://doi.org/10.24840/2183-0606_014.001_0012
 - **OpenAlex ID**: https://openalex.org/W7168377411
 - **OAステータス**: diamond
 - **PDF/原文リンク**: [PDF](https://journalengineering.fe.up.pt/index.php/jim/article/download/2183-0606_014.001_0012/1051)
 
-**一言要約**: 欧州12社のSMEを対象に、デザインシンキングの実践実装を定性調査した研究。組織開放性・経営陣の支持・チームの多様性・反復学習文化の4要因が実装成否を決定することを明らかにし、SME向けコンテキスト感応型実装フレームワークを提案した。
+**一言要約**: デザインシンキング・コンサルタント7名への専門家インタビューをGioia法で分析し、SMEでDTが機能する条件を6つの集約ディメンションとして整理。経営層のコミットメント・早期の管理職関与・部門横断の協働が鍵であり、短縮ワークショップの数週にわたる分散開催、低コストプロトタイピング（スケッチ・モックアップ・簡易デジタル成果物）、線形ステージモデルに固執しない日常業務への反復的な統合といった現実的な適応が実装を支えることを質的に明らかにした。
 
 **実務的ポイント**:
-- デザインシンキング導入支援において、組織文化診断（特に上記4要因）を先行させる重要性を実証的に裏付ける。
-- 大企業・B2B文脈への応用時は、SMEの文脈との差異（意思決定スピード、資源制約）を踏まえた調整が必要。
+- DT導入時に経営層のコミットメントと管理職の早期巻き込みを先行させることの重要性を、支援者側の実務知として整理している。
+- リソース制約下での現実的な型（短時間ワークショップの分散開催、低コストプロトタイピング）が具体的に示されており、研修・WS設計にそのまま参照できる。
+- 持続可能性（組織の変革capacity・レジリエンス）は目標として設定されるより副次的な成果として現れる、という指摘が示唆的。
 - 活用シーン: デザインシンキング研修・ワークショップ設計、組織変革診断、DT導入ロードマップ策定。
 
-**理論的貢献**: デザインシンキングの「ブラックボックス的」実装研究を脱し、コンテキスト要因を体系化した点が貢献。
+**理論的貢献**: デザインシンキングの「ブラックボックス的」実装研究を脱し、SME固有の適応パターンを実証的に記述してコンテキスト要因を体系化した点が貢献。
 
-**限界**: 12社という小規模サンプル、欧州限定。デジタルツールを活用したDTへの拡張が課題。
+**限界**: 分析単位は導入企業ではなく**支援側のコンサルタント7名**であり、SME当事者の視点は含まれない。サンプルも小規模かつ欧州限定のため、知見の一般化には注意が必要。デジタルツールを活用したDTへの拡張も課題。
 
-**実践メモ**: 「デザインシンキングが機能しない組織には何が欠けているか？」という問いへの実証的回答として、クライアントへの提案時の説得力を高める。
+**実践メモ**: 「デザインシンキングが機能しない組織には何が欠けているか？」という問いに対する、支援者側の実務知を体系化した回答として提案時に参照できる（質的研究のため、断定ではなく仮説として提示するのが適切）。
 
 ---
 
@@ -339,7 +341,7 @@
 | 1 | Competition intensity and business model innovation | Technovation | 定量・サーベイ | 競争激度→SIR→BMIの媒介モデルを実証 | ★★★★☆ | hybrid | [PDF](https://www.sciencedirect.com/science/article/pii/S0166497226001860/pdf) |
 | 2 | Transforming intermediaries for sustainability transitions | EIST | 定性事例 | 中間組織の役割転換フレームワーク | ★★★★☆ | hybrid | [PDF](https://www.sciencedirect.com/science/article/pii/S2210422426000754/pdf) |
 | 3 | Open user innovation & industrial dynamics (ABM) | Research Policy | 理論/ABM | ユーザーvs.プロデューサーイノベーション統合理論 | ★★★★☆ | hybrid | 要機関アクセス |
-| 4 | Design Thinking in Practice: SMEs | J Innovation Management | 定性インタビュー | DT実装成否の4コンテキスト要因 | ★★★★★ | diamond | [PDF](https://journalengineering.fe.up.pt/index.php/jim/article/download/2183-0606_014.001_0012/1051) |
+| 4 | Design Thinking in Practice: SMEs | J Innovation Management | 専門家インタビュー(7名)/Gioia法 | SMEでのDT実装条件を6ディメンションに整理 | ★★★★★ | diamond | [PDF](https://journalengineering.fe.up.pt/index.php/jim/article/download/2183-0606_014.001_0012/1051) |
 | 5 | Diffusing transformative innovations through templating | EIST | 定性事例 | テンプレーティングによる変革的普及メカニズム | ★★★☆☆ | hybrid | [PDF](https://www.sciencedirect.com/science/article/pii/S2210422426000717/pdf) |
 | 6 | Circularity and Resilience in Entrepreneurial Ecosystems | JPIM | 定性研究 | サーキュラリティ→エコシステム回復力の3メカニズム | ★★★☆☆ | hybrid | 要機関アクセス |
 | 7 | How Does Predictive AI Create Business Value? | SRBS | QCA | AI価値創造の3経路（効率・イノベーション・レジリエンス） | ★★★★☆ | closed | 要機関アクセス |

@@ -114,7 +114,7 @@
 **PDF/原文リンク**: [PDF直リンク](https://link.springer.com/content/pdf/10.1186/s13731-025-00513-9.pdf)
 
 ### 一言要約
-18ヶ月間5社のスタートアップを対象に、デザイン思考（ダブルダイアモンドフレームワーク）がウィキッドプロブレムの同定・リファインに有効な一方、問題定義の誤りが事業失敗の主因となることをResearch through Design法で実証した研究。
+スタートアップ5社を18ヶ月間、Research through Design法とダブルダイアモンドで追跡。提供物と市場ニーズのミスマッチは主に「デザイン思考を適用しながらの問題定義の誤り」に起因し、スタートアップは複雑なウィキッドプロブレムを単純化して問題空間の探索をショートカットしがちであることを示した。デザイン思考を掲げること自体は問題定義の質を保証しないという警告的な知見。
 
 ### 研究概要
 **背景**: スタートアップの失敗の主因は「プロダクトとマーケットの不一致」だが、その根本原因として「問題の誤定義」が挙げられてきた。デザイン思考は問題発見・定義フェーズに強みを持つとされるが、実際のスタートアップでの適用効果を追跡した長期実証研究はほとんど存在しなかった。
@@ -228,11 +228,11 @@
 
 ## Unknowing the future: Speculative foresight in international institutions and the unexpected 'origins' of expertise
 
-**著者**: Laura Pantzerhielm et al. | **ジャーナル**: Review of International Studies（2026-03）
+**著者**: Laura Pantzerhielm（単著） | **ジャーナル**: Review of International Studies（2026-03）
 **タイプ**: conceptual | **DOI**: https://doi.org/10.1017/s0260210526101739
 **OA**: hybrid | **PDF**: [PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/10FE33D5F294713ED661B8D80A1FFACF/S0260210526101739a.pdf/div-class-title-unknowing-the-future-speculative-foresight-in-international-institutions-and-the-unexpected-origins-of-expertise-div.pdf)
 
-**一言要約**: 国際機関における「思弁的フォーサイト（Speculative Foresight）」の実践を知識政治学の視点から分析し、未来を「未知・複数・偶発的なもの」として問い直す方法論的権威の構成メカニズムを解明した論文。
+**一言要約**: 国際機関（IO）における「思弁的フォーサイト（Speculative Foresight）」を、革新性・想像力・多元性・方法論的正しさという4つの主張によって権威づけられる認識実践として分析。フォーサイトはリスク技術や予測とは異なり未来を偶発的・複数的・不可知なものとして構成する点で区別され、その構成は冷戦期の「科学的」未来学への対抗プロジェクトとして未来研究が成立した歴史に由来することを系譜学的に示した論文。
 
 **実務的ポイント**: 「フォーサイトの専門性とは何か」という問いに対して批判的視点を提供する。シナリオプランニング・スペキュラティブデザインのワークショップ設計において、「未来を予測するのではなく想像する」という哲学的基盤を参加者に伝えるための論拠になる。
 

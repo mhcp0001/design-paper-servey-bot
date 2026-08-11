@@ -122,7 +122,7 @@
     {
       "rank": 7,
       "title": "Liminal Ambidexterity: Organizing Between Executional Simplicity and Adaptive Complexity in Transitional Environments",
-      "authors": "Gabija Skučaitė et al.",
+      "authors": "Gabija Skučaitė and Mehmet Recai Uygur",
       "journal": "Transformations In Business & Economics",
       "publication_date": "2026-07",
       "type": "conceptual",
@@ -132,11 +132,14 @@
       "oa_status": "hybrid",
       "pdf_url": "https://www.zurnalai.vu.lt/TIBE/article/download/46186/42710",
       "landing_page_url": "https://doi.org/10.15388/tibe.2026.25.2.22",
-      "abstract": "This conceptual paper develops the notion of liminal ambidexterity to explain how organizations remain effective when their established routines continue to support performance but cease to orient them toward future advantage. Using concepts such as ambidexterity, liminality, dynamic capabilities, and routine theory, we argue that transitional environments create a specific organizational condition in which the logic of exploitation has not yet been replaced by a new exploratory logic. Liminal ambidexterity describes the organizing challenge of maintaining executional simplicity while building adaptive complexity during this transitional state.",
-      "summary_ja": "移行期にある組織において既存ルーティンが機能しつつも将来優位性への方向付けが停滞する状態を「閾域的両利き（Liminal Ambidexterity）」として概念化し、実行的シンプルさと適応的複雑さの間でのオーガナイジング課題を理論化した新概念提唱論文。",
+      "abstract": "This conceptual paper develops the notion of liminal ambidexterity to explain how organizations remain effective when their established routines continue to support performance but cease to orient them toward future advantage. Using concepts such as ambidexterity, liminality, dynamic capabilities, resilience, and management control, the paper argues that transitional environments require firms to maintain executional simplicity in the operational core while creating sufficient adaptive complexity at the edge. The framework recognizes three indexed domains: the Simplicity Discipline Index (SDI), the Complexity Capability Index (CCI), and the Complexity Load Index (CLI). In addition, translational governance is introduced as a mechanism that converts ambiguous signals into a limited set of executable commitments. The paper contributes a quadrant model, a capability-load fit logic, a refined definition of translational governance, illustrative empirical anchors, and a measurement architecture for future empirical testing.",
+      "summary_ja": "移行期にある組織で既存ルーティンが業績を支えつつも将来優位性への方向づけを失う状態を「閾域的両利き（Liminal Ambidexterity）」として概念化した理論論文。中核業務の実行的シンプルさと周縁の適応的複雑さを両立させる枠組みとして、SDI（シンプルさ規律指標）・CCI（複雑性ケイパビリティ指標）・CLI（複雑性負荷指標）の3指標と、曖昧なシグナルを限定された実行可能なコミットメントへ変換する「翻訳的ガバナンス」を提唱する。実証検証は今後の課題。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "概念論文（実証データなし、測定枠組みの提案まで）",
+      "source_strength": "medium",
+      "author_count": 2
     },
     {
       "rank": 8,
@@ -170,11 +173,14 @@
       "oa_status": "hybrid",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CEF95F8A529232D406DB915B55F17324/S2732527X2610474Xa.pdf/div-class-title-adt-a-digital-card-based-toolkit-for-ai-augmented-design-thinking-div.pdf",
       "landing_page_url": "https://doi.org/10.1017/pds.2026.10474",
-      "abstract": "This paper presents ADT, a digital card-based toolkit designed to integrate AI into the Design Thinking process. A survey of 204 designers examined AI literacy, usage patterns, and adoption barriers. Results indicated uneven familiarity, with higher use in Prototyping and Testing stages. Key barriers included trust deficits and skill gaps. ADT addresses these by providing structured AI-task cards mapped to DT stages, enabling designers to select, adapt, and sequence AI tools based on their specific workflow needs.",
-      "summary_ja": "204名のデザイナー調査に基づきデザイン思考にAIを統合するデジタルカードツールキット「ADT」を開発・評価し、プロトタイプ・テスト段階での高い活用度とトラスト不足・スキルギャップという採用障壁を実証的に明らかにした研究。",
+      "abstract": "This paper presents ADT, a digital card-based toolkit designed to integrate AI into the Design Thinking process. A survey of 204 designers examined AI literacy, usage patterns, and adoption barriers. Results indicated uneven familiarity, with higher use in Prototyping and Testing stages. Key challenges included prompting, trust, ethics, and training gaps. ADT, thus, structures four professional roles across five design-thinking stages, providing reusable prompts, recommended AI tools, exemplar outputs, and ethical reminders to promote informed and responsible human-AI collaboration.",
+      "summary_ja": "デザイナー204名への調査でAIリテラシー・利用実態・採用障壁を把握し（プロトタイプ・テスト段階で利用が多く、障壁はプロンプト設計・信頼・倫理・研修不足）、その知見をもとにデザイン思考の5段階×4つの職能ロールにAI活用を割り付けるデジタルカードツールキット「ADT」を開発。61名による評価で概念的明瞭性を含む4次元とも良好な結果を得た。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "デザイナー204名の調査＋ツールキット開発＋61名による評価",
+      "source_strength": "medium",
+      "author_count": 3
     },
     {
       "rank": 10,

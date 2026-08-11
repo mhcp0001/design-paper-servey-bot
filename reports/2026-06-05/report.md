@@ -243,7 +243,9 @@
 **OAステータス:** diamond  
 **PDF/原文リンク:** [PDF](https://hrmars.com/papers_submitted/28340/trends-and-challenges-in-service-design-methods.pdf)
 
-**一言要約:** デジタル化・AI・社会技術的複雑性の高まりを背景に、サービスデザイン手法の現状トレンドと課題を体系的にレビューした論文。
+**一言要約:** サービスデザイン手法63件をZettelkasten（スリップボックス）法で主題分析し、サンバーストチャートで階層構造を可視化したうえでサービスデザインプロセス枠組みを構築。手法が統合的・システミック・ホリスティックな方向へ進化する一方、ユーザー関与の持続・暗黙的要求の抽出・学際的共創・モジュール型マルチインタフェース・価値共創の自動化・反復評価による持続可能性が課題として残ることを整理した。
+
+> ※ 出典強度: low（掲載誌 IJARBSS / HRMARS は査読品質に懸念があるため、社内共有時は補強資料の併用を推奨）
 
 **実務的ポイント:**
 - サービスデザイン実践者にとって現行手法の網羅的な整理として有用
@@ -338,7 +340,7 @@
 | 4 | Driving Public Service Innovation Through Internal Ecosystem Development | Proceedings of DRS | case study | 公共部門の内部エコシステム開発にデザイン主導アプローチを適用 | ★★★★ | hybrid | [PDF](https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=4234&context=drs-conference-papers) |
 | 5 | Emergent Innovation in Systemic Programme Design | Systems Research and Behavioral Science | conceptual | システム思考プログラムにおける創発的イノベーションのプロセスを振り返り | ★★★★ | hybrid | [PDF](https://doi.org/10.1002/sres.70079) |
 | 6 | Multinational enterprises and strategic foresight | Technovation | empirical | 多国籍企業のフォーサイト活用がエコ・イノベーションへ繋がるメカニズムを実証 | ★★★★ | hybrid | [PDF](https://doi.org/10.1016/j.technovation.2026.103603) |
-| 7 | Trends and Challenges in Service Design Methods | IJARBSS | review | サービスデザイン手法のトレンドと課題を体系的にレビュー | ★★★ | diamond | [PDF](https://hrmars.com/papers_submitted/28340/trends-and-challenges-in-service-design-methods.pdf) |
+| 7 | Trends and Challenges in Service Design Methods | IJARBSS | review/63手法の主題分析 | 手法63件を体系化し6つの残存課題を整理（出典強度low） | ★★★ | diamond | [PDF](https://hrmars.com/papers_submitted/28340/trends-and-challenges-in-service-design-methods.pdf) |
 | 8 | A Perceived Value Framework for Automotive Design Innovation | Proceedings of DRS | conceptual | Post-ICE時代の自動車OEMのデザイン戦略転換のための価値フレームワーク | ★★★ | hybrid | [PDF](https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=3902&context=drs-conference-papers) |
 | 9 | Capturing the impact of co-creation in circular transitions | Proceedings of DRS | review | 循環型トランジションにおけるコ・クリエーションのインパクト評価フレームを比較 | ★★★ | hybrid | [PDF](https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=3885&context=drs-conference-papers) |
 | 10 | From Greener growth to sufficiency: Global sustainability pathways | Environmental Innovation and Societal Transitions | empirical/modeling | グリーン成長とサフィシエンシーの2シナリオをモデル化し持続可能性の分岐を定量化 | ★★★ | hybrid | [PDF](https://doi.org/10.1016/j.eist.2026.101157) |

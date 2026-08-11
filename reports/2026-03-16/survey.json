@@ -57,10 +57,13 @@
       "pdf_url": "https://link.springer.com/content/pdf/10.1186/s13731-025-00513-9.pdf",
       "landing_page_url": "https://doi.org/10.1186/s13731-025-00513-9",
       "abstract": "Design thinking is defined as using strategies from the field of design to solve problems in the disciplines that are traditionally not considered design. This research explores the utilization of design thinking in identifying and refining the wicked problems that often precipitate failure. Over 18 months, we examined five startups applying the Research through Design (RtD) method and Double Diamond framework (DDF) in 4 discovery, define, develop, and deliver stages. Findings demonstrate a notable misalignment between startup offerings and market requirements, predominantly due to the misdefinition of problems applying design thinking.",
-      "summary_ja": "18ヶ月間5社のスタートアップを対象に、デザイン思考（ダブルダイアモンドフレームワーク）がウィキッドプロブレムの同定・リファインに有効な一方、問題定義の誤りが事業失敗の主因となることをResearch through Design法で実証した研究。",
+      "summary_ja": "スタートアップ5社を18ヶ月間、Research through Design法とダブルダイアモンドで追跡。提供物と市場ニーズのミスマッチは主に「デザイン思考を適用しながらの問題定義の誤り」に起因し、スタートアップは複雑なウィキッドプロブレムを単純化して問題空間の探索をショートカットしがちであることを示した。デザイン思考を掲げること自体は問題定義の質を保証しないという警告的な知見。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "スタートアップ5社を18ヶ月間追跡（Research through Design）",
+      "source_strength": "medium",
+      "author_count": 3
     },
     {
       "rank": 4,
@@ -141,7 +144,7 @@
     {
       "rank": 8,
       "title": "Unknowing the future: Speculative foresight in international institutions and the unexpected 'origins' of expertise",
-      "authors": "Laura Pantzerhielm et al.",
+      "authors": "Laura Pantzerhielm",
       "journal": "Review of International Studies",
       "publication_date": "2026-03",
       "type": "conceptual",
@@ -152,10 +155,13 @@
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/10FE33D5F294713ED661B8D80A1FFACF/S0260210526101739a.pdf/div-class-title-unknowing-the-future-speculative-foresight-in-international-institutions-and-the-unexpected-origins-of-expertise-div.pdf",
       "landing_page_url": "https://doi.org/10.1017/s0260210526101739",
       "abstract": "This article explores speculative foresight as a form of future-oriented expertise in international institutions, tapping into art, literature, management philosophy, and geopolitics. Foresight is authorized through claims to innovation, imagination, pluralism, and methodological correctness, and differs from forecasting by imagining the future as contingent, plural, and unknowable.",
-      "summary_ja": "国際機関における「思弁的フォーサイト（Speculative Foresight）」の実践を知識政治学の視点から分析し、未来を「未知・複数・偶発的なもの」として問い直す方法論的権威がどのように構成されるかを解明した論文。",
+      "summary_ja": "国際機関（IO）における「思弁的フォーサイト」を、革新性・想像力・多元性・方法論的正しさという4つの主張によって権威づけられる認識実践として分析。フォーサイトはリスク技術や予測とは異なり未来を偶発的・複数的・不可知なものとして構成する点で区別され、その構成は冷戦期の「科学的」未来学への対抗プロジェクトとして未来研究が成立した歴史に由来することを系譜学的に示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "author_count": 1,
+      "analysis_unit": "IO文書・デジタルプラットフォーム・アーカイブ・未来学文献の横断分析（単著）",
+      "source_strength": "high"
     },
     {
       "rank": 9,

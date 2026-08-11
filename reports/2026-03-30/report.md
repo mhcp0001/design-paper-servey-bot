@@ -128,16 +128,16 @@
 ### 4. Organisational culture, business model design and performance: Does ambidexterity play a role?
 
 **著者**: Blendi Gërdoçi et al. | **ジャーナル**: Entrepreneurial Business and Economics Review（2026年3月）
-**タイプ**: empirical（SEM, n=287） | **DOI**: https://doi.org/10.15678/eber.2026.140106
+**タイプ**: empirical（SEM, n=175 / アルバニア企業） | **DOI**: https://doi.org/10.15678/eber.2026.140106
 **OpenAlex ID**: https://openalex.org/W7140141462 | **OAステータス**: diamond | **[PDF](https://eber.uek.krakow.pl/index.php/eber/article/download/3109/1011)**
 
-**一言要約**: 287社のSEMデータにより「アンビデクストラスな組織文化→イノベーション・アンビデクスタリティ→新規ビジネスモデル設計→業績」の連鎖を実証。ビジネスモデル設計がアンビデクスタリティの価値を結晶化する媒介役であることを明らかにした。
+**一言要約**: アルバニアの知識集約9業種の企業175社（経営者・オーナー回答）を対象としたSEMにより「アンビデクストラスな組織文化→イノベーション・アンビデクスタリティ→新規ビジネスモデル設計→業績」の連鎖を実証。ビジネスモデル設計がアンビデクスタリティの価値を結晶化する媒介役であることを明らかにした。
 
 **実務的ポイント**: 組織文化変革をビジネスモデルイノベーションと連動させる際の理論的根拠として活用。変革プロジェクトで「文化変革→BM設計→業績」のロジックモデルを構築する際に引用可能。
 
 **理論的貢献**: アンビデクスタリティ研究とビジネスモデルイノベーション研究を媒介変数で橋渡し。Tushman & O'Reillyのアンビデクスタリティ論をBMI文脈に拡張。
 
-**限界**: 特定地域・業種への偏りあり。自己申告のSEMデータによる共通方法バイアスの懸念。
+**限界**: 移行経済（アルバニア）の知識集約9業種に限定されており、日本のような成熟経済・大企業文脈への外挿には注意が必要。横断調査かつ自己申告データのため共通方法バイアスの懸念もある。
 
 ---
 
@@ -227,11 +227,13 @@
 **タイプ**: conceptual | **DOI**: https://doi.org/10.1007/s10798-026-10083-w
 **OpenAlex ID**: https://openalex.org/W7142215350 | **OAステータス**: hybrid | **[PDF](https://link.springer.com/content/pdf/10.1007/s10798-026-10083-w.pdf)**
 
-**一言要約**: 人類学・認知科学・発達心理学を統合し、「機能的見立て（functional pretence）＝想像上の状態を実在するものとして扱い行動する能力」を全デザイン行為の基盤的認知能力として提唱。AI時代における人間固有のデザイン能力を再定義する概念論文。
+**一言要約**: 人類学・認知科学・発達心理学を統合し、「機能的見立て（functional pretence）＝想像した状態を宣言的言語で共有し、実在するものとして行動の根拠にする能力」こそが人間を他の動物と分けデザインを可能にしていると論じる理論論文。デザイン教育への適用を教室シナリオで例示する。
 
-**実務的ポイント**: 「AIがデザインを代替できるか？」という問いへの理論的回答として活用可能。ビジョニング・プロトタイピング・シナリオ構築・スペキュラティブデザインが共通の認知的基盤（機能的見立て）を持つことを示し、デザイナーの専門性価値を再定義する。
+**実務的ポイント**: ビジョニング・プロトタイピング・シナリオ構築・スペキュラティブデザインが共通の認知的基盤（機能的見立て）を持つことを示しており、デザイナーの専門性価値を語る理論的裏付けになる。
 
-**理論的貢献**: デザイン認知論の基礎付け。既存のデザイン思考論（Cross, Dorst等）に認知科学・人類学的基盤を付加。人間-AI協働のデザイン論に新視角を提供。
+> ※ 本論文はAIに一切言及していない（本文中の "AI"/"artificial intelligence" 出現は0件）。「AIがデザインを代替できるか」という問いへの応用は**本レポートによる解釈**であり、論文の主張ではない。
+
+**理論的貢献**: デザイン認知論の基礎付け。既存のデザイン思考論（Cross, Dorst等）に認知科学・人類学的基盤を付加し、人間とヒト以外の動物の対比から「何が人間をデザイナーにするか」を論じる。
 
 **限界**: 純粋な概念論文であり実証検証なし。「機能的見立て」の測定・操作化は未開発。
 
@@ -244,13 +246,13 @@
 | 1 | Multiple pathways to radical service innovation in manufacturing firms | Journal of Innovation & Knowledge | fsQCA, n=493 | 製造業の急進的サービスイノベーションの5配置パターン。DICが中核 | ★★★★★ | gold | [PDF](https://doi.org/10.1016/j.jik.2026.100998) |
 | 2 | Adaptability in Innovation Management: A Meta-Analysis | Journal of Product Innovation Management | Meta-analysis (268 samples) | 適応性4属性の揃いがイノベーションを最大化。不確実性下で増幅 | ★★★★★ | hybrid | 要機関アクセス |
 | 3 | Advancing Circularity: The Dynamic Capabilities to Drive Transformative Change | California Management Review | Conceptual | 循環変革の3モード×DCVフレームワーク。再生型ビジネスモデルへの道標 | ★★★★★ | hybrid | 要機関アクセス |
-| 4 | Organisational culture, business model design and performance | Entrepreneurial Business and Economics Review | SEM, n=287 | 組織文化→アンビデクスタリティ→BM設計→業績の連鎖を実証 | ★★★★☆ | diamond | [PDF](https://eber.uek.krakow.pl/index.php/eber/article/download/3109/1011) |
+| 4 | Organisational culture, business model design and performance | Entrepreneurial Business and Economics Review | SEM, n=175（アルバニア） | 組織文化→アンビデクスタリティ→BM設計→業績の連鎖を実証 | ★★★★☆ | diamond | [PDF](https://eber.uek.krakow.pl/index.php/eber/article/download/3109/1011) |
 | 5 | Transforming Health Systems: A Systemic Design Lab Approach | International Journal of Integrated Care | Case study | システム思考+デザイン思考を5ゾーンラボで統合。社会インフラ共創の実装モデル | ★★★★☆ | gold | [PDF](https://doi.org/10.5334/ijic.icic25406) |
 | 6 | Cross-sectoral transition work at the heart of the regime | Environmental Innovation and Societal Transitions | Qualitative case | インフラ事業者3社がアムステルダムで実践した跨セクター移行の3戦略 | ★★★★☆ | hybrid | 要機関アクセス |
 | 7 | Anticipatory governance of a maritime mission | Environmental Innovation and Societal Transitions | Mixed methods | リアルタイムMOTAによる先見的ガバナンス。長期ミッション管理の実践モデル | ★★★★☆ | hybrid | 要機関アクセス |
 | 8 | Creative Mode of Professional Architect/Designer Working with GenAI | International Journal of Design Education | Qualitative, n=15 | デザイナーのGenAI活用3モード（可視化・逍遥・統合）の実践的分類 | ★★★★☆ | hybrid | 要機関アクセス |
 | 9 | AI as an architect: exploring regenerative innovation ecosystems | European Journal of Innovation Management | SEM, n=110 | AIが再生型イノベーションエコシステムを触媒するメカニズムを実証 | ★★★☆☆ | hybrid | 要機関アクセス |
-| 10 | Functional pretence: what makes humans designers | International Journal of Technology and Design Education | Conceptual | 「機能的見立て」をデザイン認知の基盤として提唱。AI時代の人間的デザイン価値を再定義 | ★★★☆☆ | hybrid | [PDF](https://link.springer.com/content/pdf/10.1007/s10798-026-10083-w.pdf) |
+| 10 | Functional pretence: what makes humans designers | International Journal of Technology and Design Education | Conceptual | 「機能的見立て」をデザイン認知の基盤として提唱し、デザイン教育へ適用 | ★★★☆☆ | hybrid | [PDF](https://link.springer.com/content/pdf/10.1007/s10798-026-10083-w.pdf) |
 
 ---
 

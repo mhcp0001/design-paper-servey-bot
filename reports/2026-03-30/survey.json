@@ -75,11 +75,14 @@
       "oa_status": "diamond",
       "pdf_url": "https://eber.uek.krakow.pl/index.php/eber/article/download/3109/1011",
       "landing_page_url": "https://doi.org/10.15678/eber.2026.140106",
-      "abstract": "This study demonstrates that new business model design can capture the value created by organisational culture and innovation ambidexterity. A chain relationship was found between ambidextrous organisational culture, innovation ambidexterity, novel business models, and business performance. Structural equation modeling on survey data from 287 firms shows that ambidextrous culture positively shapes innovation ambidexterity, which in turn enables novel business model design, ultimately improving performance. The findings underscore the central role of ambidexterity as a mediating bridge linking culture to performance through business model innovation.",
-      "summary_ja": "287社のSEMデータにより「アンビデクストラスな組織文化→イノベーション・アンビデクスタリティ→新規ビジネスモデル設計→業績」という連鎖関係を実証。ビジネスモデル設計がアンビデクスタリティの価値を結晶化させる媒介役であることを明らかにし、組織文化変革とビジネスモデルイノベーションの統合戦略に理論的根拠を提供。",
+      "abstract": "Objective: The article aims to explore the relationships between cultural and innovation ambidexterity and novel business model design (NBMD) and trace their influence on business performance in the context of transition economies. Research Design & Methods: We adopted a cross-sectional survey design using data collected in 2019 from 175 managers and owners of Albanian firms across nine knowledge-intensive sectors. We employed structured questionnaires with validated multi-item Likert scales to measure constructs like ambidexterity, NBMD, and performance, followed by rigorous validity and reliability checks (CFA). The analysis used covariance-based structural equation modelling (SEM) with bootstrapping to test hypothesised relationships and assess indirect effects. Findings: Our study demonstrates that new business model design can capture the value created by organisational culture and innovation ambidexterity. More specifically, we found a chain relationship between ambidextrous organisational culture, innovation ambidexterity, novel business models, and business performance. These results support the view that, as a dynamic capability, ambidexterity affects performance indirectly through NBMD, while the performance outcomes of cultural ambidexterity are mediated by factors such as innovation ambidexterity and NBMD. Implications & Recommendations: We identified NBMD as a design theme aligned with contextual ambidexterity that can capture the value-creation potential of this form of innovation ambidexterity. Managers should consider adopting an NBMD when pursuing innovation ambidexterity, while government and development agencies should consider providing grants to start-ups experimenting with novel business models. Contribution & Value Added: This study represents one of the few attempts to investigate the relationships between organisational culture, capabilities and business models, contributing to the literature that focuses on identifying business models that can support paradoxical strategies, including ambidexterity.",
+      "summary_ja": "アルバニアの知識集約9業種の企業175社（経営者・オーナー回答）を対象としたSEMにより、「アンビデクストラスな組織文化→イノベーション・アンビデクスタリティ→新規ビジネスモデル設計→業績」という連鎖関係を実証。ビジネスモデル設計がアンビデクスタリティの価値を結晶化させる媒介役であることを示した（移行経済の文脈である点に留意）。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "アルバニア企業175社の質問票調査（共分散構造分析）",
+      "source_strength": "medium",
+      "author_count": 3
     },
     {
       "rank": 5,
@@ -189,11 +192,14 @@
       "oa_status": "hybrid",
       "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10798-026-10083-w.pdf",
       "landing_page_url": "https://doi.org/10.1007/s10798-026-10083-w",
-      "abstract": "Synthesizing anthropology, cognitive science, and developmental psychology, this paper proposes 'functional pretence' as the intentional process enabling humans to interact with imagined states as grounds for real action—the foundational capacity enabling all design. Functional pretence involves treating non-existent or hypothetical states as real in order to act upon them. This capacity is argued to be uniquely human and to underlie all designerly cognition, including envisioning, prototyping, scenario-building, and speculative design. Implications for design education and AI-assisted design are discussed.",
-      "summary_ja": "人類学・認知科学・発達心理学を統合し、「機能的見立て（functional pretence）＝想像上の状態を実在するものとして扱い行動する能力」を全デザイン行為の基盤的認知能力として提唱。ビジョニング・プロトタイピング・シナリオ構築・スペキュラティブデザインの認知的根拠を統一的に説明する概念枠組みであり、AI時代のデザイン教育・人間固有の価値再定義にも示唆を持つ。",
+      "abstract": "Almost everything in our modern world is artificial, from cruffins and fish flops, to penicillin and computers. Why is it that humans make these things? And why don't we see other non-human creatures (like chimpanzees) making these things? In this theoretical paper, we synthesize across anthropology, cognitive science, and developmental psychology to suggest that humans engage in what we describe as functional pretence, an intentional process where one interacts with what one (or another) imagines as real. Functional pretence is more than pretend play, it is the capacity to treat imagined states, communicated through declarative language, as grounds for real action. It's this capacity which enables humans to interact with an artificial world which contains all the information and knowledge generated by other humans. It removes the requirement for direct experience, and enables humans to take a faithful leap toward the novel and the unknown. By exploring the arguments which lead to functional pretence, we explore what is fundamental to the design process that leads to all the things in our modern world. We then apply this foundational perspective to design education, illustrating through classroom scenarios how functional pretence already operates in design learning and where interventions could improve outcomes.",
+      "summary_ja": "人類学・認知科学・発達心理学を統合し、「機能的見立て（functional pretence）＝想像した状態を宣言的言語で共有し、実在するものとして行動の根拠にする能力」こそが人間を他の動物と分けデザインを可能にしていると論じる理論論文。デザイン教育への適用を教室シナリオで例示する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "理論的統合（人類学・認知科学・発達心理学の文献）",
+      "source_strength": "medium",
+      "author_count": 3
     }
   ]
 }

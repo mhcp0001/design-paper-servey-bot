@@ -132,11 +132,14 @@
       "oa_status": "diamond",
       "pdf_url": "https://hrmars.com/papers_submitted/28340/trends-and-challenges-in-service-design-methods.pdf",
       "landing_page_url": "https://doi.org/10.6007/ijarbss/v16-i5/28340",
-      "abstract": "Service design has become increasingly important in addressing the growing complexity of contemporary socio-technical service ecosystems shaped by digital transformation, artificial intelligence, and societal challenges. This paper systematically reviews current trends and emerging challenges in service design methods, examining how practitioners and researchers are adapting established approaches such as service blueprinting, customer journey mapping, and co-design to new technological and organizational contexts. Key trends include the integration of AI-assisted design tools, data-driven personalization, and the shift toward systemic service design that addresses ecosystem-level complexity. Challenges include scaling participatory methods, measuring design impact, and navigating ethical dimensions of AI in service design.",
-      "summary_ja": "デジタル化・AI・社会技術的複雑性の高まりを背景に、サービスデザイン手法の現状トレンドと課題（AIツール統合、スケーリング、インパクト測定）を体系的にレビューした論文。",
+      "abstract": "Service design has become increasingly important in addressing the growing complexity of contemporary socio-technical service ecosystems shaped by digital transformation, artificial intelligence, and multi-channel customer interactions. As service environments become more dynamic and user-centred, organisations require more integrated, sustainable, and participatory approaches to service innovation. However, existing service design methods remain fragmented, often focusing on isolated service requirements, specific stages of development, or single disciplinary perspectives. Consequently, there is limited understanding of how service design methodologies collectively evolve to address complex and interdisciplinary service environments. This study examines the trends and challenges of service design methods through a thematic analysis of 63 service design methods using the Zettelkasten (slip-box) organisation technique. The methods were integrated into a Sunburst Chart to visualise hierarchical relationships, process stages, and key methodological elements. Based on this analysis, a comprehensive service design process framework was developed to evaluate the evolution of service design methodologies. The findings indicate that service design methods are evolving towards more integrated, systemic, and holistic approaches. Nevertheless, major challenges remain in sustaining user engagement, eliciting implicit user requirements, supporting interdisciplinary co-creation, developing modular multi-interface systems, enabling automated value co-creation, and ensuring sustainability through iterative evaluation and long-term value-in-use. This study contributes a comprehensive analytical framework that supports the development of adaptive, sustainable, and human-centred service design methodologies for increasingly complex service environments.",
+      "summary_ja": "サービスデザイン手法63件をZettelkasten法で主題分析し、サンバーストチャートで階層構造を可視化したうえでサービスデザインプロセス枠組みを構築。手法が統合的・システミック・ホリスティックな方向へ進化する一方、ユーザー関与の持続・暗黙的要求の抽出・学際的共創・モジュール型マルチインタフェース・価値共創の自動化・反復評価による持続可能性が課題として残ることを整理した。",
       "practical_relevance": "★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "サービスデザイン手法63件の主題分析",
+      "source_strength": "low",
+      "author_count": 3
     },
     {
       "rank": 8,

@@ -37,11 +37,14 @@
       "oa_status": "hybrid",
       "pdf_url": null,
       "landing_page_url": "https://doi.org/10.1111/jpim.70020",
-      "abstract": "Over two decades, firms have built platforms and engaged open innovation communities to improve and customize products through widened participation in the design process. While benefits of involving external co-designers have been documented, how co-design processes unfold over time at organizational boundaries remains poorly understood. This five-year ethnographic study identifies three co-design types (intimate, instrumental, limited) and reveals how driving forces prompt dynamic transitions between them.",
-      "summary_ja": "自動車メーカーとオンラインコミュニティの5年間のコデザイン協働を追跡し、「親密型・手段型・限定型」の3形態が環境・組織要因により動態的に移行することを明らかにした、境界研究の最前線。",
+      "abstract": "For over two decades, firms have built platforms and engaged open innovation communities to improve and customize their products through widened participation in the design process. While the benefits of involving those outside a firm as co-designers have been well described, how co-design processes unfold over time at the boundary between those in an organization and an open online community remains poorly understood. Using the theoretical lens of boundary work and a five-year ethnographic study with a firm that pioneered co-design in the automotive industry, we develop a theoretical model that shows how and why co-design between the firm and its open online community evolved over time. We describe three different types of co-design (intimate, instrumental, and limited co-design) and show how these are intertwined with existing types of boundary work (collaborative, configurational, and competitive boundary work). Importantly, we unravel the dynamic shifts between different types of co-design and associated boundary work, showing the driving forces that precede shifts. Our research extends the boundary work literature by proposing forces that prompt organizations to shift between types of boundary work, illustrating how these forces are tied to characteristics of the environment and open community and are integral to the work of the organization. More broadly, this study contributes new insight into the temporal evolution of design collaboration between organizations and online communities.",
+      "summary_ja": "自動車業界でコデザインを先駆けた企業とそのオープンなオンラインコミュニティの協働を5年間のエスノグラフィで追跡。コデザインの3形態（親密型・手段型・限定型）が境界ワークの3類型（協働的・配置的・競争的）と絡み合い、環境とオープンコミュニティの特性に起因する駆動力によって動態的に移行することを示した、境界研究の最前線。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "analysis_unit": "自動車メーカー1社とそのオンラインコミュニティの5年間のエスノグラフィ",
+      "source_strength": "high",
+      "author_count": 4
     },
     {
       "rank": 3,
@@ -56,11 +59,14 @@
       "oa_status": "hybrid",
       "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11846-026-00996-0.pdf",
       "landing_page_url": "https://doi.org/10.1007/s11846-026-00996-0",
-      "abstract": "Platforms have revolutionized value creation by enabling efficient matchmaking between customer groups. While traditionally associated with external value exchange, platform thinking represents the mechanism that, through matchmaking, supports established firms to innovate by orchestrating available resources. While platforms are known in the literature for creating value by efficiently connecting external customer groups, their potential to support efficient collaboration among internal units is largely underexplored. This design science research study develops and evaluates an intra-organizational platform to enhance collaboration and knowledge sharing within established firms, identifying six design principles for effective internal platform deployment.",
-      "summary_ja": "「プラットフォーム思考」を組織内部に適用し、既存企業が社内ユニット間の知識共有と協働を加速できることをデザインサイエンス研究アプローチで実証した、イントラ・プラットフォーム研究の先駆的論文。",
+      "abstract": "Platforms have revolutionized value creation by enabling efficient matchmaking between customer groups. While traditionally associated with external value exchange, platform thinking represents the mechanism that, through matchmaking, supports established firms to innovate by orchestrating available resources. While platforms are known in the literature for creating value by efficiently connecting external customer groups, their potential to support efficient collaboration among internal units in established organizations remains underexplored. How to adopt platform thinking to promote intra-organizational collaboration is also a problem faced by the manager of Confcooperative Lombardia, a business association supporting cooperatives in value creation, seeking to improve internal collaboration. By adopting a Design Science Research, which included physical and digital workshops involving the entire organization, this study developed an artifact that illustrates how platforms can serve as a framework for redesigning collaboration and knowledge sharing between internal units. Matchmaking becomes a ritual that employees can flexibly adopt to ask for support and share best practices. This research reframes platforms as tools for guiding collaboration within organizations, extending beyond their digital functionality. Since the platform operates as an intra-organizational process rather than a digital system, its functioning depends on empowering individuals, who collectively act as the algorithm that drives matchmaking and knowledge exchange. Employees are guided by agile and platform thinking as cultural frameworks that sustain collaboration, presenting platforms as processes that can be scaled across the organization. By leveraging this process, organizations can better utilize resources distributed across various units. Managers, in turn, can adopt platform thinking into organizational culture to create a scalable process that guides internal collaboration and knowledge sharing.",
+      "summary_ja": "イタリアの事業者団体Confcooperative Lombardia1組織を対象としたデザインサイエンス研究（DSR）。「プラットフォーム思考」を組織内部に適用し、マッチメイキングを従業員が柔軟に使える「儀式（ritual）」として設計するアーティファクトを開発・評価した。プラットフォームをデジタルシステムではなく組織内プロセスとして捉え直す点が新しい。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "事業者団体1組織のデザインサイエンス研究（全社ワークショップ）",
+      "source_strength": "medium",
+      "author_count": 3
     },
     {
       "rank": 4,

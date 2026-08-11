@@ -75,11 +75,14 @@
       "oa_status": "diamond",
       "pdf_url": "https://journalengineering.fe.up.pt/index.php/jim/article/download/2183-0606_014.001_0012/1051",
       "landing_page_url": "https://doi.org/10.24840/2183-0606_014.001_0012",
-      "abstract": "This study explores how Design Thinking is implemented in practice within small and medium-sized enterprises (SMEs), and which contextual factors shape its success. Using a qualitative approach with semi-structured interviews, we examine 12 SMEs across different sectors that have undergone Design Thinking workshops facilitated by a regional innovation support programme. Our findings reveal four contextual factors that critically influence the success of Design Thinking implementation: organizational openness, top management support, team diversity, and iterative learning culture. We conclude that Design Thinking's effectiveness cannot be isolated from its organizational and cultural context, and propose a context-sensitive implementation framework for SME settings.",
-      "summary_ja": "欧州12社のSMEを対象に、デザインシンキングの実践実装を定性調査した研究。組織開放性・経営陣の支持・チームの多様性・反復学習文化の4要因が実装成否を決定することを明らかにし、SME向けコンテキスト感応型実装フレームワークを提案した。",
+      "abstract": "This study explores how Design Thinking is implemented in practice within small and medium-sized enterprises (SMEs), and which contextual factors shape its success. It addresses the research question of how Design Thinking is implemented in SMEs and what contextual factors influence its outcomes. Using semi-structured expert interviews with seven Design Thinking consultants, the study employs a qualitative, exploratory design and applies the Gioia methodology for inductive analysis. The analysis identifies six thematic dimensions that explain how Design Thinking becomes actionable in SMEs, ranging from strategic alignment to long-term embedding. The findings show that effective SME adoption of Design Thinking hinges on leadership commitment, early managerial involvement, and cross-functional collaboration, and is characterized by pragmatic adaptations such as shorter workshop formats distributed over several weeks, low-cost prototyping (sketches, mock-ups, simple digital artefacts), and an iterative, context-sensitive integration into everyday routines rather than adherence to linear stage models. Sustainability (in terms of organizational capacity and resilience) frequently emerges as a secondary outcome rather than a predefined objective. These practices enable SMEs to manage operational constraints while achieving user-centric problem framing and faster learning loops. The study contributes to the growing body of research on innovation management in SMEs by providing an empirically grounded account of SME-specific Design Thinking adaptations and offering actionable implications for managers, consultants, and policymakers.",
+      "summary_ja": "デザインシンキング・コンサルタント7名への専門家インタビューをGioia法で分析し、SMEでDTが機能する条件を6つの集約ディメンションとして整理。経営層のコミットメント・早期の管理職関与・部門横断の協働が鍵であり、短縮ワークショップの分散開催や低コストプロトタイピングといった現実的な適応が実装を支えることを質的に明らかにした。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "analysis_unit": "デザインシンキング・コンサルタント7名への半構造化専門家インタビュー",
+      "source_strength": "medium",
+      "author_count": 3
     },
     {
       "rank": 5,
