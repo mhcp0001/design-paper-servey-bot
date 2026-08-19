@@ -22,7 +22,10 @@
       "summary_ja": "デジタル技術が補完的資産（配信・マネタイズ）を破壊する中、NYTとWashington Postが採用した異なるBMI経路を比較分析し、破壊の種類に応じた最適な対応戦略を類型化した実証研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "New York Times と Washington Post の比較事例研究（2社）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "10,500本超のサービス論文を機械学習で分析し、2026年のサービス研究優先テーマ15を4クラスターで特定。Human-AI協働・価値共創・持続可能サービスが最重要テーマとして浮上した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "サービス関連論文10,500件超の概念ネットワーク分析（機械学習によるリンク予測）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "スウェーデン製造業188社でデジタル化×循環化のTwin Transitionを実証し、企業業績への効果はサプライチェーン・オーケストレーションとBMIが補完的実践として機能することが条件であると示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "スウェーデンの製造業188社の質問票調査（PLS-SEM）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "需要環境変化に対する経営者の「内省（reflection）」がBMIのトリガーとなるメカニズムを認知アプローチ・センスメイキング理論で概念化し、組織的BMI変革の新しい説明フレームを提示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（需要サイドのビジネスモデルイノベーション枠組みの構築）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "フィンランドのバイオガスB2Bプラットフォームを事例に、デジタルサービス・イノベーション（DSI）が持続可能なプラットフォーム生態系における価値提案の共創をいかに支援するかを探索的に明らかにした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "フィンランドの地域バイオガス・プラットフォームエコシステム1件の探索的単一事例研究（半構造化インタビュー20件）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "中国AI企業76社405名の実証研究で、両利きリーダーシップが知識ベース・ダイナミック・ケイパビリティを媒介して製品革新性を高め、起業家的志向がその効果を調整することを確認した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "中国・長江デルタ地域のAI企業76社・回答者405名の質問票調査（共分散構造分析）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "製造業のデジタル技術採用がサービタイゼーションを促進するメカニズムとして、知識結合（knowledge coupling）とコラボレーティブ・ネットワーク凝集度が重要な役割を持つことを実証研究で明らかにした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "生成AIがデザインワークフローに浸透する中、デザイナーが「失いつつある認知能力」と「守るべき設計コンピテンシー」を批判的に論じた実務志向の概念論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "low",
+      "author_count": null,
+      "analysis_unit": "エッセイ・概念論文（生成AI時代のデザイナーの思考と能力の考察）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "スウェーデン過疎地の「Climbers' Hub」を事例に、複数SMEが協働するエコシステムで循環型BMIがいかに展開されるかを質的に分析し、地域協働と循環経済のシナジーを示した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "medium",
+      "author_count": 3,
+      "analysis_unit": "スウェーデン過疎地の協働ハブ1件の質的事例研究（インタビュー・観察・文書レビュー）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "資源制約のある中国SMEが技術的リープフロッギング（段階を飛ばした技術転換）によってBMIを実現するプロセスを複数ケーススタディで探索し、制約駆動型創造フレームを提示した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国の新興ナレッジハブのSMEを対象とした質的複数事例研究（事例数の記載なし）"
     }
   ]
 }

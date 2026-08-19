@@ -22,7 +22,10 @@
       "summary_ja": "生成AIがデザイン思考授業の各段階で学生の判断サイクルをどのように媒介するかを35件のポートフォリオ分析から解明し、「AI支援発散的教授法」フレームワークを提案した実証研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ニュージーランドのインタラクションデザイン課程3年次のデザインポートフォリオ35件"
     },
     {
       "rank": 2,
@@ -38,10 +41,13 @@
       "pdf_url": null,
       "landing_page_url": "https://doi.org/10.1016/j.technovation.2026.103602",
       "abstract": "Venture clienting (VCL) emerged as an increasingly prominent form of collaboration between corporations and new ventures. However, many VCL initiatives stall because corporations are not organizationally prepared to collaborate with new ventures. Using a design science (DS) methodology, this study introduces the Venture Clienting Readiness Canvas, an ex-ante assessment tool that helps corporations evaluate the internal conditions necessary for successful VCL before engagement begins. We derived five readiness domains—strategic alignment, collaboration governance, communication and trust, organizational culture, and collaboration processes—from a systematic literature review. In addition, we refined the canvas through four practitioner workshops with experienced VCL experts as part of a formative evaluation and subsequently assessed the artifact in a summative evaluation involving nine additional VCL practitioners. The results demonstrate that the canvas offers a structured, actionable approach to assessing organizational readiness for VCL. Thus, this study contributes prescriptive design knowledge on how corporations can anticipate the organizational tensions, coordination demands, and organizational change necessities inherent in collaborating with new ventures.",
-      "summary_ja": "大企業がスタートアップとのベンチャークライアント型協業（VCL）を開始する前に組織的準備状況を5領域で評価できる「VC準備度キャンバス」をデザインサイエンス手法で開発し、4回の実践者ワークショップで実証した即活用可能なツール論文。",
+      "summary_ja": "大企業がスタートアップとのベンチャークライアント型協業（VCL）を開始する前に組織的準備状況を5領域で評価できる「VC準備度キャンバス」をデザインサイエンス手法で開発し、4回の実践者ワークショップで評価した即活用可能なツール論文。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "デザインサイエンス研究（Venture Clienting Readiness Canvas の開発、標本規模の記載なし）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "医療機器設計の縦断的ケーススタディを通じ、学際的プロジェクトにおける22の矛盾を事前マッピングして創造的制約に変換する「先行的調停」アプローチと9つの設計原則を提示。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "完全人工心臓コントローラの再設計1件の縦断的事例研究"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "イノベーションの「問題的持続」現象を社会技術的メンテナンスの視点から分析し、世界最多来館者数の博物館を事例に革新と維持のダイナミクスを解明した概念論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "グリーンスチール事例から既存大企業がサステナビリティ革新を遂行する際の「非連続だが非破壊的」イノベーション経路の特性を実証し、インカンベント企業の移行戦略に示唆を提供。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "ハンガリー国家救急サービスの「2040年シナリオ」プロジェクトを通じ、参加型・規範的フォーサイト手法（STEEP・シナリオ・フューチャーワークショップ）をミッションクリティカルな公共機関に適用した実証事例。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ハンガリーの国家救急サービスのフォーサイト事業1件の事例研究"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "スペキュラティブデザインのアーティファクトがAI未来を巡る公衆の論争をどのように媒介するかを42名の設計学生による4ヶ月プロジェクトデータから分析し、アーティファクト媒介論争のプロセスモデルを構築。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "デザイン学生42名が参加した4ヶ月間のプロジェクト"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "72研究・198独立サンプルのメタ分析でサービスイノベーションと企業業績の関係を調整する6条件変数（サービス経済度・技術的乱高下・市場志向・フロントライン従業員コミットメント・リーダーシップ・学習志向）を特定したPFIフレームワーク拡張研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "72研究・198独立標本のメタ分析（メタ回帰とファジィセットQCA）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "Cynefinフレームワークを用いてサービス研究における問題の複雑性を識別し、新興・関係性・不明確なサービス現象には確認的調査より「実証優先アプローチ」を適用すべきと論じる概念論文。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（Cynefinフレームワークに基づく問題設定アプローチの提案）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "デプロイ後も継続的に進化するデジタルアーティファクトを「リビングアーティファクト」として概念化し、デジタルトレースデータを活用した継続的評価フレームワークをデザインサイエンス研究に提示。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（デザインサイエンス研究における「生きたアーティファクト」概念の提示）"
     }
   ]
 }

@@ -22,7 +22,10 @@
       "summary_ja": "493社の製造業を対象にfsQCAを用いて急進的サービスイノベーションを引き起こす要因配置を解明。デジタル統合ケイパビリティ（DIC）が中核条件として機能し、組織アンビデクスタリティ・戦略的柔軟性・顧客共創・知識吸収・エコシステム埋め込みとの5つの組み合わせパターンを特定。製造業のサービタイゼーション戦略の実行条件を実証した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "製造業493社の質問票調査（ファジィセットQCA）"
     },
     {
       "rank": 2,
@@ -38,10 +41,13 @@
       "pdf_url": null,
       "landing_page_url": "https://doi.org/10.1111/jpim.70041",
       "abstract": "Multi-level meta-analysis of 549 effect sizes from 268 independent samples reveals an overall positive relationship between adaptability and innovation. The adaptability-innovation relationship is most pronounced when all attributes of adaptability (flexibility, reactivity, proactivity, and speed) are present. Moderation analyses show that the relationship is stronger in high-uncertainty environments and in firms with higher levels of organizational learning. The meta-analysis provides robust evidence that adaptability is a critical driver of innovation performance across organizational levels.",
-      "summary_ja": "268独立サンプル・549効果量のメタ分析により、適応性とイノベーション成果の全般的正の関係を実証。柔軟性・反応性・先制性・スピードの4属性が揃う場合に効果が最大化し、不確実性の高い環境下でさらに増幅することを明らかにした。イノベーション管理における適応性構築の優先度と方向性に強力なエビデンスを提供。",
+      "summary_ja": "268独立サンプル・549効果量のメタ分析により、適応性とイノベーション成果の全般的正の関係を確認。柔軟性・反応性・先制性・スピードの4属性が揃う場合に効果が最大化し、不確実性の高い環境下でさらに増幅することを明らかにした。イノベーション管理における適応性構築の優先度と方向性に強力なエビデンスを提供。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "268の独立標本・549効果量のマルチレベルメタ分析"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "サーキュラーエコノミーへの移行を推進するダイナミックケイパビリティを3段階（移行的・変革的・再生的）で体系化したCMR論文。各モードで必要なセンシング・シージング・再構成ケイパビリティを特定し、企業が段階的にサーキュラリティを深化させるための変革フレームワークを提示。長期の社会インフラ・脱炭素ロードマップ設計に直結する枠組み。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（Circularity Transformation Framework の提案）"
     },
     {
       "rank": 4,
@@ -98,10 +107,13 @@
       "pdf_url": "https://doi.org/10.5334/ijic.icic25406",
       "landing_page_url": "https://doi.org/10.5334/ijic.icic25406",
       "abstract": "The Systemic Design Lab (SDL) at Khoo Teck Puat Hospital applies system-thinking and design-thinking to address complex healthcare issues. Participants engage in five experiential zones to foster cross-team collaboration and develop innovative integrated care solutions. The SDL combines systems mapping, stakeholder journey analysis, rapid prototyping, and reflective facilitation to enable frontline clinicians and administrators to co-design systemic interventions. Results from three years of operation demonstrate measurable improvements in cross-departmental collaboration and solution implementation rates.",
-      "summary_ja": "シンガポールの病院に設置した「システミックデザインラボ（SDL）」が、システム思考とデザイン思考を5ゾーン体験形式で統合し、複雑な医療課題に対する部門横断的な統合ケアソリューションを共創するアプローチを紹介。3年の運用実績から、部門横断協働と解決策実装率の定量的改善を実証した事例研究。",
+      "summary_ja": "シンガポールの病院に設置した「システミックデザインラボ（SDL）」が、システム思考とデザイン思考を5ゾーン体験形式で統合し、複雑な医療課題に対する部門横断的な統合ケアソリューションを共創するアプローチを紹介。3年の運用実績から、部門横断協働と解決策実装率の定量的改善を報告している事例研究（単一施設・対照群なし）。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "病院1施設のシステミックデザインラボの3年間の運用事例"
     },
     {
       "rank": 6,
@@ -120,7 +132,10 @@
       "summary_ja": "アムステルダムの市・水道会社・電力グリッド事業者による都市インフラ計画の跨セクター移行プログラムを分析し、レジーム埋め込み型アクターが用いる3戦略（境界連結・制度的起業家活動・保護空間創出）を特定。既存システム内部の変革主体がどのように社会技術移行を主導できるかを示す、インフラ企業向けの移行戦略論。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "アムステルダムの分野横断トランジションプログラム1件の事例研究（自治体・水道会社・送電網事業者）"
     },
     {
       "rank": 7,
@@ -139,7 +154,10 @@
       "summary_ja": "「2050年気候中立船舶」を目指すオランダ海事ミッションにリアルタイムのミッション指向トランジションアセスメントを適用し、先見的ガバナンスが技術・市場・規制・社会の各バリアを事前に特定・軽減するプロセスを解明。ミッション指向イノベーション政策の実践知を提供する縦断的事例研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "オランダの海事ミッション1件の縦断的混合手法分析（専門家インタビュー・ワークショップ・政策文書）"
     },
     {
       "rank": 8,
@@ -158,7 +176,10 @@
       "summary_ja": "15名のプロ建築家・デザイナーによるGenAI（テキスト→画像）ツール活用の質的研究。3つの創造的モード「共同可視化（アイデア外在化）」「共同逍遥（探索的実験）」「共同統合（複雑な概念空間での共創）」を特定し、デザイナーの専門性と意図性がモード選択に影響することを解明。デザイン実務でのGenAI活用指針として即実践可能な知見。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "low",
+      "author_count": null,
+      "analysis_unit": "プロの建築家・デザイナー15名のGenAI利用調査"
     },
     {
       "rank": 9,
@@ -177,7 +198,10 @@
       "summary_ja": "欧州5カ国110名のクリエイティブ産業組織を対象にSEMを用いて、AIが再生型イノベーションエコシステムの形成を促進するメカニズムを解明。AI導入が環境持続可能性・資源最適化・自己学習型ビジネスモデルを通じてエコシステムを進化させる条件（組織学習文化・デジタルインフラ）を特定。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "欧州5カ国のクリエイティブ産業組織110名の質問票調査（構造方程式モデリング）"
     },
     {
       "rank": 10,

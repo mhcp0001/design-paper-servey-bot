@@ -22,7 +22,10 @@
       "summary_ja": "協調的イノベーションプロセスをオーケストレートするためにデザインサイエンスを適用する方法論的フレームワークを提示し、孤立したツール（ハンマー）から状況適応型ツールキットへの移行を論じた実践指向の論文。複数アクターが関与する複雑なイノベーションプロセスのファシリテーターに向けた理論的・実践的示唆を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "デザインサイエンス原理に基づく方法論的枠組みの構築（標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "シーメンスにおける生成AIの戦略的フォーサイト実務への縦断的統合事例を分析し、AIがシナリオ開発を加速する一方で人間の意味形成が不可欠であること、そして新たなガバナンス課題（AI生成インサイトの検証体制）が生じることを実証した研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "Siemens Professional Education 1組織の縦断的事例研究"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "デジタルネイティブではないレガシー大企業がプラットフォーム思考を活用して解決できる5つの典型的ビジネス問題（顧客関係深化・外部イノベーション取込み・遊休資産収益化・パートナーシップ拡張・新市場開拓）を体系的フレームワークとして提示した実践的論文。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "レガシー企業のプラットフォーム思考適用事例の分析（5つの業務課題、事例数の記載なし）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "英国・EUの地域政策事例を比較分析し、グランドチャレンジに対応する「先見的能力（anticipatory capacity）」をどう構築するかを戦略的フォーサイトの文脈で論じ、変革的レジリエンスへの示唆を導出した研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "英国・EUの政策地域の比較事例分析（地域数の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "リーガルテック事例を通じてプロフェッショナルサービス業のデジタル変革がビジネスモデル革新（BMI）を駆動するプロセスモデルを提示し、デジタル化とBMIの関係が組織両利き経営・制度的圧力・顧客需要によって媒介されることを示した研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "LegalTech企業の複数事例研究（事例数の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "ミッション指向イノベーション政策において「邪悪な問題」がどのようにナラティブを通じて構築・強化されるかを分析し、ナラティブの違いがミッションの優先順位付けと設計に影響することを示したフレームワーク論文。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ミッション指向イノベーション政策のナラティブ分析（事例数の記載なし）"
     },
     {
       "rank": 7,
@@ -158,7 +176,10 @@
       "summary_ja": "237名のTMTメンバー調査に基づき、トップマネジメントチームの行動統合が動的ケイパビリティに与える正の影響を実証し、「職務要求（認知的・感情的）」がその媒介変数として機能することを明らかにした定量研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "89社・トップマネジメントチーム構成員237名の質問票調査"
     },
     {
       "rank": 9,
@@ -199,7 +220,10 @@
       "summary_ja": "公共調達によるイノベーションスケーリングを「市場加速・市場形成・市場変革」の3モードで理論化し、公共調達機関・イノベーター・政策立案者それぞれへの含意を示した新概念フレームワーク論文。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（公共調達によるイノベーション・スケーリングの3モード枠組み）"
     }
   ]
 }

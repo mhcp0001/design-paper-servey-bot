@@ -1,6 +1,9 @@
 {
   "survey_date": "2026-04-20",
-  "date_range": {"from": "2026-04-13", "to": "2026-04-20"},
+  "date_range": {
+    "from": "2026-04-13",
+    "to": "2026-04-20"
+  },
   "papers": [
     {
       "rank": 1,
@@ -19,7 +22,10 @@
       "summary_ja": "生成AIと人間の協働における認知的非対称性（暗黙知vs.コード化知識）が引き起こす「表現ギャップ」を特定し、境界スパニング・ルーティン、表現翻訳、役割分化という3つの組織メカニズムによって克服できることをパフューム創作の事例研究で実証した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "プロの調香（香水制作）を対象とした質的研究（標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -38,7 +44,10 @@
       "summary_ja": "サービスデザインが「制度的想像力」——既存のサービスエコシステムの論理を問い直し、代替的な構成を思考する能力——の育成をいかに支援するかを、エストニアのメンタルヘルス・サービスエコシステムにおける研究-through-デザインアプローチで実証した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "エストニアのメンタルヘルスケア・サービスエコシステムでの生成的インタビュー25件、共創ワークショップ2回（システムアクター23名）、リフレクション2回（25名）"
     },
     {
       "rank": 3,
@@ -57,7 +66,10 @@
       "summary_ja": "AIが生成したアウトプットの検証を従業員が意図的に怠る「AIコンプレイアンシー（AI依存性怠慢）」を6つの実験（N=1,370）で実証し、モニタリング責任の欠如が主因であり、サービス品質と顧客満足度を著しく低下させることを示した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "実験6件・参加者1,370名"
     },
     {
       "rank": 4,
@@ -76,7 +88,10 @@
       "summary_ja": "医療専門職315名のfsQCAデータ分析により、デジタルサービスイノベーションの提供者側採用を促す複数の等結果的（equifinal）構成条件経路を特定し、患者中心の視点に偏りがちな従来研究を提供者側の意思決定構造から補完した。",
       "practical_relevance": "★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "自営の医療専門職315名のデータ（ファジィセットQCA）"
     },
     {
       "rank": 5,
@@ -95,7 +110,10 @@
       "summary_ja": "エージェント型AI（自律性・能動性・目標指向性）のサービスイノベーションとしての採用を混合研究法で検証し、ユーザー満足度・信頼・継続利用意図に対してエージェント特性がどのように機能するかを解明した。",
       "practical_relevance": "★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "エージェンティックAI利用者を対象とした混合手法研究（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -114,7 +132,10 @@
       "summary_ja": "ノルウェーのマーケティングテクノロジー企業の縦断的事例研究を通じて、ビジネスエコシステムの発生過程でダイナミック・ケイパビリティ（感知・把握・変革）がどのように進化・分散化していくかを解明した。",
       "practical_relevance": "★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ノルウェーのマーケティングテクノロジー企業1社（Odins.ai）の縦断的帰納的事例研究"
     },
     {
       "rank": 7,
@@ -133,7 +154,10 @@
       "summary_ja": "個人・組織・社会・地球規模における集合知の科学と実践を統合的にレビューし、複数スケールで知性を組織するための普遍的パターンを探索、グローバルガバナンスや社会イノベーションへの設計的示唆を提示した。",
       "practical_relevance": "★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "レビュー（全システム・地球規模での集合知の科学と実践の概観）"
     },
     {
       "rank": 8,
@@ -152,7 +176,10 @@
       "summary_ja": "WEF・Accenture等23機関の戦略的フォーサイトレポートをマルチエージェントAIを活用したDeflyCompass手法で分析し、2025年の主要グローバルトレンドを体系的に特定・統合する新しいハイブリッド人間-AIパイプラインを提示した。",
       "practical_relevance": "★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "国際機関等が公表した戦略フォーサイトレポート23件の統合分析（人間-AIハイブリッドパイプライン）"
     },
     {
       "rank": 9,
@@ -171,7 +198,10 @@
       "summary_ja": "ジャーナリズムを事例に27名へのインタビューを通じて、生成AIが個人利用から組織的協働ワークへと移行する際の課題・機会・調整メカニズムを明らかにし、組織でのGenAI統合設計に示唆を与えた。",
       "practical_relevance": "★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ジャーナリスト・編集者27名へのインタビュー"
     },
     {
       "rank": 10,
@@ -190,7 +220,10 @@
       "summary_ja": "医療サービスの共同生産（co-production）における消費者の脆弱性リスクが不平等なパワー関係から生じることを示し、消費者の経験的知識を認識・活用・報酬化する共同生産能力強化のための実践的フレームワークを提示した。",
       "practical_relevance": "★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（ヘルスケアの共同生産における消費者脆弱性の検討）"
     }
   ]
 }

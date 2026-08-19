@@ -22,7 +22,10 @@
       "summary_ja": "新興技術の事業化において多アクター協働が低価値応用に固着する「低価値トラップ」のメカニズムを解明し、高価値領域への移行には共有ビジョンの再構築・知識境界を越えた調整・運用フレームワークの再キャリブレーションという3メカニズムが単なるスケールアップでなく「再調整」を必要とすることを示す。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "バイオマリン技術の商業化における多主体協働の質的研究（標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "AI成熟度を動的ケイパビリティ論で概念化し、韓国SME 132社のPLS-SEM分析により「ビジネスモデルイノベーション（BMI）→AI成熟度→業績」という戦略先行型の因果連鎖を実証した。BMIがテクノロジー導入よりも強力なAI成熟度の先行要因である。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "AI成熟度を対象とした定量分析（標本規模の記載なし）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "産学連携に基づく協働イノベーション（CI）が企業協働・人材育成・産業高度化・経済発展に与える影響を、622人のサーベイと102人のインタビューを用いた混合手法で実証した。産学政三者エコシステム型のCIが最も高い経済成果を生む。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国の産学連携を対象とした混合手法（質問票622名・インタビュー102名）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "「Wicked Problem」に取り組む多者間システムにおいて、オンラインvs対面のコミュニケーション環境が創発的なシステムダイナミクスと統合的合意形成に与える影響を441名の行動実験で検証した。期待の役割は確認されたが、環境の違いがシステム全体のダイナミクスに与える影響は限定的であった。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "多主体交渉シミュレーション26回・130グループ・参加者441名"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "デジタル化が進む知識集約型サービス企業において、知識の「コード化戦略」と「個人化戦略」の戦略的調和がいかに生産性とイノベーションに貢献するかを、アドバイザリー企業の複数ケース研究で考察した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "アドバイザリーサービス業の質的複数事例研究（事例数の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "デジタルビジネス戦略（DBS）が知識デジタル化を通じて競争力と製品イノベーションを高める一方、プラットフォームリスクがDBSの効果を抑制することを、中国481社のSEM分析で実証した。戦略―知識デジタル化―パフォーマンスの連鎖メカニズムを解明。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国企業481社の質問票調査（構造方程式モデリング）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "AIの組織・製品・生態系への「埋め込み」（AI embedding）が競争構造の再構成を媒介して企業競争力を高めることを、中国のembodied intelligence産業266社のデータで実証した。AI採用よりもAI統合の深度が競争優位の鍵。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国の身体性知能産業の企業266社の質問票調査（PLS-SEM）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "新製品開発のファジーフロントエンド（FFE）におけるサプライヤー関与の志向性が、外部志向の組織慣行を媒介して企業の漸進的・根本的イノベーション能力を高めることを、自動車206社のSEM分析で示す。B2Bイノベーション推進の組織設計に示唆。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "low",
+      "author_count": null,
+      "analysis_unit": "自動車産業206社の質問票調査（構造方程式モデリング）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "分散型エネルギー技術（太陽光・蓄電池・EVなど）の普及によって「受動的消費者」から「エネルギー生産消費者（prosumer）」へと変容する顧客行動を分析し、グリッド接続継続の動機とサービスデザイン上の示唆を考察する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "レビュー（分散型エネルギー技術と顧客の役割変化の概観）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "計画行動理論・コーポレートアントレプレナーシップ・社会関係資本論を統合し、医療専門職における「組織的イノベーション支援の知覚（POSI）」と「個人の協働志向」が起業家的意図に与える影響を検討した。高度専門職組織での内部起業家精神育成に示唆。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "研究主導型病院の医師を対象とした質問票調査（標本規模の記載なし）"
     }
   ]
 }

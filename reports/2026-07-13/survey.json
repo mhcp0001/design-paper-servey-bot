@@ -1,6 +1,9 @@
 {
   "survey_date": "2026-07-13",
-  "date_range": {"from": "2026-07-06", "to": "2026-07-13"},
+  "date_range": {
+    "from": "2026-07-06",
+    "to": "2026-07-13"
+  },
   "papers": [
     {
       "rank": 1,
@@ -19,7 +22,10 @@
       "summary_ja": "新興技術の商業化プロセスにおける「責任ある革新志向（RIO）」を上位次元のダイナミック・ケイパビリティとして定義し、予測（Anticipation）・省察（Reflexivity）・包括（Inclusion）・応答（Responsiveness）の4つの組織的能力（ARIR）がその中核をなすことを、17組織50名へのインタビューから実証的に示した。リーダーシップコミットメントや心理的安全性がARIRを条件付ける先行要因であり、責任をコンプライアンスではなく戦略優先事項として扱う実践的枠組みを提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "17組織のマネジャーへの深層インタビュー50件"
     },
     {
       "rank": 2,
@@ -38,7 +44,10 @@
       "summary_ja": "コロナ禍のフランスミシュランレストランの縦断的質的研究から、「BM維持」→「一時的BM革新」→「BM革新」→「BM転換」→「BM多角化」という5段階のビジネスモデル適応軌跡を同定し、認知的フレーミングと組織スラックの相互作用が不連続的破壊下での戦略的（不）行動を規定することを明らかにした。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "フランスのミシュラン星付きレストランの縦断的質的研究（事例数の記載なし）"
     },
     {
       "rank": 3,
@@ -57,12 +66,15 @@
       "summary_ja": "B2Bサービス企業41社への帰納的質的調査から、企業が意図的に誘起しようとする顧客反応の集合「目標体験（TX）」概念を導出し、TXの具体性（汎用型 vs 特定型）がCXM実行・CX文化・競争的ポジショニングを規定することを明らかにした。反応的・先行的CXM戦略の2類型はB2B文脈での差別化施策に直結する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "B2Bサービス企業41社の質的フィールド研究（アブダクティブ・アプローチ）"
     },
     {
       "rank": 4,
       "title": "Governance logics and foresight functions: European strategic foresight in contrastive perspective",
-      "authors": "Natalia Veselitskaya et al.",
+      "authors": "Natalia Veselitskaya and Dina Malekova",
       "journal": "European Journal of Futures Research",
       "publication_date": "2026-07",
       "type": "conceptual",
@@ -76,7 +88,10 @@
       "summary_ja": "フォーサイト手法は文脈中立的ツールではなく、テクノクラティック・市場管理型・ネットワーク型・予測型という4つのガバナンス論理に埋め込まれ異なる制度的機能を果たすことを、EU・日本・韓国の対比事例分析から示した。EU型の「ネットワーク＆予測型ガバナンス基盤」としてのフォーサイトは、日本の政策フォーサイトにも示唆を与える。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "medium",
+      "author_count": 2,
+      "analysis_unit": "EU・日本・韓国の対比事例分析（文献計量マッピングと文献68件の手動検証を併用）"
     },
     {
       "rank": 5,
@@ -95,7 +110,10 @@
       "summary_ja": "SDL・サービスデザイン・CXを含む主要なサービスマネジメント理論が「認知的に安定した自律的ユーザー」という暗黙の前提に基づく年齢非感応的な設計ロジックを持つことを批判的文献分析で解明し、高齢化社会に向けたライフコース視点・権利基盤アプローチを統合した包摂的サービス理論刷新の方向を提示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（サービスマネジメント諸伝統の批判的文献レビュー）"
     },
     {
       "rank": 6,
@@ -114,7 +132,10 @@
       "summary_ja": "55本の査読論文の体系的レビューと書誌計量分析により、シナリオプランニングをダイナミック・ケイパビリティとして位置づけ、創造性・メンタルモデル・組織学習の3つのメカニズムを通じて組織の持続可能性を向上させる概念モデルを構築し、戦略的実践としての制度化を提言した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "査読論文55件のPRISMA準拠系統的レビューと二層の文献計量分析"
     },
     {
       "rank": 7,
@@ -133,7 +154,10 @@
       "summary_ja": "オランダのタンパク質転換ミッション指向型イノベーション・エコシステムを対象に、ガバナンス・権力非対称・競合利益に起因する8つのパラドキシカルテンションを析出し、段階的協働・選択的開放・ハイブリッドガバナンス等の対処戦略を提示した。クロスセクター協働の設計に実践的示唆を与える。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "オランダのタンパク質転換におけるミッション指向エコシステム1件の事例研究"
     },
     {
       "rank": 8,
@@ -152,7 +176,10 @@
       "summary_ja": "デザイン研究ラボ（DRL）と実世界ラボ（RWL）の比較分析により、DRLが物質化・プロトタイピング・スペキュラティブ想像という「デザイン的認識論」で変革研究に固有の貢献をもたらすことを示し、サステナビリティ転換研究における両者の相補的協働の可能性を論じた。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "medium",
+      "author_count": 3,
+      "analysis_unit": "実世界ラボ（RWL）とデザイン研究ラボ（DRL）の特性の比較横断分析（文献ベース）"
     },
     {
       "rank": 9,
@@ -171,7 +198,10 @@
       "summary_ja": "変革的イノベーション政策（TIP）の実装フェーズに焦点を当てた初の体系的レビュー（65事例）として、多層ガバナンス・進化的アプローチ・公的インセンティブの反復パターンと市民参加の「包摂性ギャップ」という課題を明らかにし、適応的・文脈感応的な政策実装設計への知見を統合した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "2010-2025年に公表された実証事例研究65件の系統的レビュー"
     },
     {
       "rank": 10,
@@ -190,7 +220,10 @@
       "summary_ja": "デジタル文化産業504名の調査データを用い、デジタルプラットフォーム・ケイパビリティ（DPC）が組織の構造的敏捷性（OSA）とビジネスモデル革新（BMI）を媒介してコーポレートイノベーション・エコシステムにおける価値共創を促進することを実証し、デジタルビジネス強度がその効果を調整することを示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国のデジタル文化産業企業の従業員504名の質問票調査"
     }
   ]
 }

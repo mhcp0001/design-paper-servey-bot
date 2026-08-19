@@ -22,7 +22,10 @@
       "summary_ja": "外部専門家が5種類の推論ロジック（逆演繹・逆帰納・説明的アブダクション・思索的アブダクション・道徳的アブダクション）を用いることで、組織が問題をリフレーミングし革新的な洞察を得るプロセスを明らかにしたエスノグラフィック研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": 3,
+      "analysis_unit": "戦略的イノベーションプロジェクト4件のエスノグラフィ"
     },
     {
       "rank": 2,
@@ -85,7 +88,10 @@
       "summary_ja": "中国企業3,958社の2011〜2023年パネルデータを用い、AIが吸収能力を主経路としてダイナミック・ケイパビリティを強化しイノベーション・レジリエンスを高めること、ただし競争激化・技術激変環境ではその効果が減弱することを大規模実証。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国企業3,958社のパネルデータ（2011-2023年、固定効果モデル）"
     },
     {
       "rank": 5,
@@ -104,7 +110,10 @@
       "summary_ja": "中国コンサルティング企業を対象に、人的・構造的・関係的・更新資本の4種の知的資本がダイナミック・ケイパビリティを介してサービスイノベーション成果に影響することを実証した、B2Bサービス企業に直結する研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国のマネジメントコンサルティング企業の質問票調査（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -123,7 +132,10 @@
       "summary_ja": "新規事業における「スピードと新規性のトレードオフ（イノベーションパラドックス）」を克服するうえで、デザイン思考と両利き学習（探索・活用の統合）が鍵となることを実証した研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクトに手法・標本の記述なし）"
     },
     {
       "rank": 7,
@@ -142,7 +154,10 @@
       "summary_ja": "スウェーデンのバイオメタン産業の長期縦断分析を通じ、複数セクターを横断する「リンケージシステム」が持続可能技術の価値連鎖拡大と成長限界の両方をもたらす累積的プロセスを解明した移行研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "スウェーデンのバイオメタン産業の長期縦断事例分析"
     },
     {
       "rank": 8,
@@ -161,7 +176,10 @@
       "summary_ja": "デジタルトランスフォーメーションにおいて人間とAIがどのように意思決定を分担・補完し合うかを「スペクトラム」として概念化し、イノベーション管理への含意を論じた論文。著者陣にはTarba（戦略的提携）・Neely（パフォーマンス測定）という世界的権威が名を連ねる。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（実証データなし）"
     },
     {
       "rank": 9,
@@ -180,7 +198,10 @@
       "summary_ja": "フィンランドSME28社51名へのインタビューを通じ、戦略的リーダーシップの枠組み・非公式チーム学習・人間-AI信頼規範の3要素がダイナミック・ケイパビリティの微視的基盤を形成することを質的に明らかにした研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "フィンランドのSME28社・インタビュー51件"
     },
     {
       "rank": 10,
@@ -199,7 +220,10 @@
       "summary_ja": "平時から構築した組織レジリエンス能力が危機時においても企業業績を高めるメカニズムを解明。台湾大企業の2波縦断データにより、漸進的・急進的イノベーション能力が媒介変数として機能し、戦略的HRM実践がその連鎖を強化することを実証した研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "台湾大企業の2時点パネル調査（標本規模の記載なし）"
     }
   ]
 }

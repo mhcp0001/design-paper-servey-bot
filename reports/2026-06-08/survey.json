@@ -1,6 +1,9 @@
 {
   "survey_date": "2026-06-08",
-  "date_range": {"from": "2026-06-01", "to": "2026-06-08"},
+  "date_range": {
+    "from": "2026-06-01",
+    "to": "2026-06-08"
+  },
   "papers": [
     {
       "rank": 1,
@@ -19,7 +22,10 @@
       "summary_ja": "サービスデザインが顧客体験改善のニッチ実践から、システム変革・社会変革を牽引する学際的分野へと進化していることを実証的に示し、実践者に求められる役割・能力・新興トレンドを体系化した研究。ツールからマインドセットへのシフト、生成AIの実践統合、組織変革への従事が主要トレンド。",
       "practical_relevance": "★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "サービスデザイン実務家82名のオンライン調査と専門家8名の検証パネル"
     },
     {
       "rank": 2,
@@ -38,7 +44,10 @@
       "summary_ja": "競合と協力を同時に行うコーピティション（共競争）がイノベーション成果に与える影響を51研究・11.8万件データのメタ分析で解明し、協力強度とコーピティション強度は正の効果を持つが競争強度は一貫した直接効果を示さないことを明らかにした。",
       "practical_relevance": "★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "コーペティションと革新に関するメタ分析（対象研究数の記載なし）"
     },
     {
       "rank": 3,
@@ -57,7 +66,10 @@
       "summary_ja": "43件のB2B・B2Cビジネスモデル開発ケースの分析から、デザイン思考の5フェーズを「高バランス連鎖」で実行したチームほど責任ある設計意思決定を行い、問題定義の明確さがプロトタイプ忠実度を規定するが必ずしも行動的エビデンスの質を担保しないことを解明した。",
       "practical_relevance": "★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "初期段階のサービス事業43件の質的複数事例研究"
     },
     {
       "rank": 4,
@@ -76,7 +88,10 @@
       "summary_ja": "ポルトガルのタイルメーカーRevigréにおいてデンマーク・中国でのデザイン主導フォーサイトワークショップを実施し、2070年の住環境に関する12のスペキュラティブビジョンが境界オブジェクトとして組織的センスメイキングと戦略リフレクションを促進した事例を報告。",
       "practical_relevance": "★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "デンマーク・中国での国際ワークショップによるアクションリサーチ（企業1社と協働、スペキュラティブビジョン12件を創出）"
     },
     {
       "rank": 5,
@@ -95,7 +110,10 @@
       "summary_ja": "COPD（慢性閉塞性肺疾患）のデジタル患者ストーリー共同制作を事例に、議論的デザイン（Discursive Design）の民主化プロセスを探究し、コ・クリエーションが多次元的問題探索・当事者の声の包摂・デザインエスノグラフィーとの統合を可能にすることを示した。",
       "practical_relevance": "★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ディスカーシブデザインの共創研究（参加者数の記載なし）"
     },
     {
       "rank": 6,
@@ -114,7 +132,10 @@
       "summary_ja": "4つの消費者実験とメタ分析により、ラジカルなサステナブル製品イノベーションが増分的なものより消費者の好意的評価・購買意図・支払意思額を生む理由が企業の内発的動機帰属にあることを解明し、サステナビリティレピュテーションがこれを増幅させることを示した。",
       "practical_relevance": "★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "消費者を対象とした実証研究（標本規模の記載なし）"
     },
     {
       "rank": 7,
@@ -133,7 +154,10 @@
       "summary_ja": "欧州452社の7年間パネルデータで、デジタルトランスフォーメーションが従業員のデジタルコンピテンシーを媒介して社会的サステナビリティを向上させるメカニズムを実証し、デジタルアップスキリングが企業CSS達成の鍵であることを示した。",
       "practical_relevance": "★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "従業員のデジタルコンピテンシーを媒介とした定量分析（標本規模の記載なし）"
     },
     {
       "rank": 8,
@@ -152,7 +176,10 @@
       "summary_ja": "参加型スペキュラティブデザイン（PSD）が市民サービスデザイン（CSD）の文脈でどのような機会を提供できるかを批判的レンズで考察し、実践者が直面するバリアを乗り越えながら市民の集合的未来想像力を活用する方途を示した。",
       "practical_relevance": "★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "探索的な概念的検討（参加型スペキュラティブデザインの市民サービスデザインへの適用可能性）"
     },
     {
       "rank": 9,
@@ -171,7 +198,10 @@
       "summary_ja": "デザインフィクションと参加型データビジュアライゼーションを統合した「スペキュラティブ・コ・イマジネーション」アプローチを提唱し、都市空間プロジェクト「Sky Protocol」を事例に5段階フレームワークを示した。",
       "practical_relevance": "★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（プロジェクトSky Protocolを事例としたスペキュラティブ共想像アプローチの提案）"
     },
     {
       "rank": 10,
@@ -190,7 +220,10 @@
       "summary_ja": "サービスデザイン実践者のダイアリースタディと使用ログ・フォーカスグループ分析を通じ、LLMがデザインチームの意思決定において見習い・協力者・助言者・専門家・共創者・評価者という6役割を動的に担うことを解明した。",
       "practical_relevance": "★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "サービスデザイン実務家を対象とした日誌調査と事後フォーカスグループ（標本規模の記載なし）"
     }
   ]
 }

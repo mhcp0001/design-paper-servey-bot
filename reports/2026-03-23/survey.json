@@ -22,7 +22,10 @@
       "summary_ja": "デザイナーが組織内で「イシューセリング（上位者の注意をデザインに向けて戦略的意思決定に影響する行為）」を通じてデザイン統合を推進するプロセスと戦術を実証的に解明した研究。プロトタイプによる可視化・経営言語へのフレーミング翻訳・タイミング設定・連帯形成という4戦術類型を特定し、デザイン部門の組織的プレゼンス向上の実践知を提供。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "複数組織のデザイナーへの質的インタビューとエスノグラフィ観察（標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "AI駆動のサービスイノベーションにおける大学-産業連携の構造・プロセス・価値共創メカニズムを実証的に解明し、探索・実験・実装の3段階連携モデルと「境界活動」の重要性を明らかにした研究。B2BサービスのAI化ロードマップ設計に直結する知見を提供。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "産学連携の質的事例研究（事例数の記載なし）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "人間とAIが組織内で協働する際に変化するタスク要求に応じて認知的役割分担を動態的に調整する「ハイブリッド認知アラインメント（HCA）」を提唱。認知マッピング・動態的タスク再配分・共有表現構築の3メカニズムから成る理論的枠組みを構築し、AI時代の組織設計に新たな理論基盤を提供した論文。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（実証データなし）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "産業用IoT（IIoT）プラットフォームの失敗原因をGiddensの構造化理論を援用して実証的に解明。プラットフォーム構造と人間エージェンシーの相互作用から生じる「構造的固着（structural lock-in）」を主要な失敗メカニズムとして特定し、適応的柔軟性を維持するための条件を提示したB2B製造業に直結する研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "IIoTプラットフォーム事業の複数事例研究（事例数の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "サービスエコシステムのデジタル化戦略において発生する効率化・標準化・集権化と、エンパワーメント・カスタマイズ・分権化の間の多層的テンションをパラドックス理論とSDLを援用して管理するフレームワークを提示した概念研究。DX推進の実践的羅針盤となる。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（パラドックス理論・サービスドミナントロジックに依拠）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "科学・技術に関する公的対話の「設計原理」を複数の社会的アクターが競合する場として捉え、STS（科学技術社会論）とデザイン研究を統合した「デモ技術的分析」フレームワークを提唱。参加型デザインと科学コミュニケーションを架橋し、ステークホルダー対話設計に新たな分析視角を提供。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（STS・デザイン研究に依拠した分析枠組みの提案）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "国家イノベーションシステム（NIS）が触媒となって形成されるイノベーションエコシステムのガバナンス課題を分析し、制度的・政治的「振れ（swaying）」を乗り越えながらエコシステムを前進させる統治モデルを提示。産官学連携型イノベーションの設計・推進に有用な枠組み。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（国家イノベーションシステムのガバナンス枠組みを提案）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "イノベーション研究で混用されてきた「イノベーション抵抗（能動的拒否）」と「イノベーション不採用（受動的非選択）」を概念的に峻別し、それぞれに対応した採用促進介入の設計精緻化を提唱。新製品・新サービス導入の障壁分析と対策立案に直結する理論的整理。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念的レビュー（イノベーション抵抗と非採用の概念的区別）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "イノベーションインフラが脆弱な地域に立地する企業でも、「心理的開放性（外部知識・多様な視点への志向）」が高い場合にはイノベーション活動が活発化し、地理的ハンディを部分的に補償できることを大規模調査で実証。マインドセット形成とオープンイノベーション文化構築の重要性を示す。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "企業対象の大規模質問票調査（標本規模の記載なし）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "WeChat・Grab・Kakaoなどのスーパーアプリが複数のエコシステムアクター間の価値共創ネットワーク「価値星座（Value Constellations）」を設計・触媒するメカニズムを分析。価値星座論（Normann & Ramirez）をデジタルプラットフォーム文脈に更新し、スーパーアプリ化を目指す企業の戦略設計に有用な新フレームを提示。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（バリューコンステレーション理論・プラットフォーム戦略に依拠）"
     }
   ]
 }

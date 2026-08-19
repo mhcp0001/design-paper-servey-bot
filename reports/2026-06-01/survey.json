@@ -22,7 +22,10 @@
       "summary_ja": "AIはデザイナーのツールにとどまらず、設計プロセスにおける人間と機械の分業を根本的に再編成するという視点論文。デザイン科学の枠組みを用いてAI時代のデザイン教育と実践のあり方を問い直す。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "パースペクティブ論文（AI時代のデザインにおける分業の再編を論じる）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "研究インフラ機関がサービスイノベーション思考とデザイン能力を活用して、ミッション指向イノベーションにおける変革的アクターへと転換する方法を示した実証研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "欧州・中南米の研究インフラおよび国家イノベーション機関の代表者による構造化フォーサイト（参加者数の記載なし）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "デザイン実践における社会的インパクトを評価・測定するための基盤フレームワークを提供する概念論文。製品/サービスデザイン・社会イノベーション・政策デザインの3方向に対応。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（デザインの社会的インパクト評価枠組みの基礎的検討）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "複雑・不確実なサービスのグランドチャレンジには帰納的・定性的研究が最適であることを論証し、未来の研究アジェンダを提示した統合レビュー。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "方法論エッセイと統合的レビュー（対象文献数の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "矛盾を理論的レンズとして価値共創（VCC）と価値共破壊（VCD）のミクロダイナミクスを初めて統合実証した研究。サービスシステム管理への実践的示唆を提供。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ジオキャッシング利用者のオンライン掲示板データと深層インタビュー（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "デザイン活動をアッサンブラージュとして捉え、スケッチから倫理・戦略策定まで設計プロセスの複雑性と多様性を視覚的に整理したビジュアルエッセイ。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ビジュアルエッセイ（デザイン活動のアセンブリッジの考察）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "エネルギー転換を経た島嶼コミュニティが循環経済移行に挑む過程で、複数移行ドメインをまたぐ高次学習がどう起きるかを実証した事例研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "オランダ・ワッデン海のアメラント島1件の事例研究（エネルギー・熱・循環の連続的転換）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "技術革新システム（TIS）フレームワークにルーマンの社会システム論を統合し、システミックな変化とステアリング戦略を説明できる新理論的基盤を構築した概念論文。",
       "practical_relevance": "★★☆☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（複雑系理論に基づく技術革新システム枠組みの再構築）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "システム思考をサステナビリティ教育のメタ・コンピテンスと位置づけ、Viable Systems Approach（vSa）を核としたT字型教育フレームワークを提案した文献レビュー論文。",
       "practical_relevance": "★★☆☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "文献レビューと国際機関の公式ガイドライン分析（対象文献数の記載なし）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "ハイテクスタートアップ創業者の事前業界知識（インサイダーvsアウトサイダー）が生存率・成長・M&A確率に与える影響を、米国大規模マイクロデータで実証した戦略的経営研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "形式モデルと米国の雇用主-被雇用者リンク型ミクロデータ（標本規模の記載なし）"
     }
   ]
 }

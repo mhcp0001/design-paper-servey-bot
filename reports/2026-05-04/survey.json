@@ -1,6 +1,9 @@
 {
   "survey_date": "2026-05-04",
-  "date_range": {"from": "2026-04-27", "to": "2026-05-04"},
+  "date_range": {
+    "from": "2026-04-27",
+    "to": "2026-05-04"
+  },
   "papers": [
     {
       "rank": 1,
@@ -19,7 +22,10 @@
       "summary_ja": "UXプロフェッショナルがCreativeタスクでChatGPTとどのように協働するかを実証的に調査し、人間とLLMの相互作用パターンを解明した研究。デザイン実務においてAIを効果的に統合するための知見を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "UX専門職とChatGPTの協働に関する質的研究（標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -38,7 +44,10 @@
       "summary_ja": "製造業SMEがデジタルサービタイゼーションを通じて価値提案を再構築するプロセスを18社のインタビューで解明。製品中心からサービス指向への移行における価値共創メカニズムを実証的に示す。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "製造業SME18社のマネジャーへのインタビュー（探索的・アブダクティブ）"
     },
     {
       "rank": 3,
@@ -57,7 +66,10 @@
       "summary_ja": "「よこしまな問題（Wicked Problems）」に対して、イノベーション政策立案者がどのように方向性ヒューリスティクスを活用して問題を解釈し対応するかを概念化した理論的研究。課題主導型イノベーション政策のフレーミング理論に新たな視座を提示する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（方向性ヒューリスティクスの提示）"
     },
     {
       "rank": 4,
@@ -76,7 +88,10 @@
       "summary_ja": "シナリオプランニングの「直感的論理」手法において直感の役割を再評価し、分析的厳密さと直感的認知を統合した拡張フレームワークを提案。不確実な未来に備える戦略的フォーサイト実践に向けた新しい視点を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（シナリオプランニングにおける直観的論理の再検討）"
     },
     {
       "rank": 5,
@@ -95,7 +110,10 @@
       "summary_ja": "サービス企業における価値共創のための組織能力の因果的複雑性をfsQCA（ファジー集合型質的比較分析）によって実証分析。どの能力の組み合わせが価値共創成果につながるかをコンフィギュレーション的に解明する。",
       "practical_relevance": "★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "サービス企業を対象としたファジィセットQCA（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -114,7 +132,10 @@
       "summary_ja": "イノベーションエコシステム論を「リアリスト・批判的・プラグマティスト」の3視座に分類整理し、AIエコシステムへの適用を通じて各視座の違いを明確化したレビュー研究。エコシステム戦略の学際的議論を整理するフレームワークを提供する。",
       "practical_relevance": "★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "研究ノート（イノベーションエコシステム文献の3視点への類型化）"
     },
     {
       "rank": 7,
@@ -133,7 +154,10 @@
       "summary_ja": "社会技術システムの大規模変革研究において見落とされてきた「失敗した移行」を歴史的視点から分析する枠組みを提案。失敗パターンの類型化を通じて、トランジションデザインと変革管理に重要な示唆を与える。",
       "practical_relevance": "★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（失敗した歴史的トランジションの分析枠組みの提案）"
     },
     {
       "rank": 8,
@@ -152,7 +176,10 @@
       "summary_ja": "空港手荷物処理施設を舞台に、ロボット技術の導入が労働者にどう影響するかをスペキュラティブデザインワークショップで探索した実践的ケーススタディ。学際的思考とデザインフィクションを組み合わせたロボット労働未来の共創手法を示す。",
       "practical_relevance": "★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "空港手荷物取扱い現場でのスペキュラティブデザイン・ワークショップ1件"
     },
     {
       "rank": 9,
@@ -171,7 +198,10 @@
       "summary_ja": "デジタル技術がイノベーションエコシステムをどのように変革しているかを体系的マッピングで整理したレビュー論文。プラットフォーム経済・デジタル変革・エコシステムガバナンスの主要テーマと研究ギャップを包括的に示す。",
       "practical_relevance": "★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "系統的マッピングレビュー（対象文献数の記載なし）"
     },
     {
       "rank": 10,
@@ -190,7 +220,10 @@
       "summary_ja": "システム思考の学術的発展を7119件のScopus文献データを用いた書誌計量分析で可視化した包括的レビュー。問題領域と解決手法の知的構造を体系的にマッピングし、50年間の分野進化を明らかにする。",
       "practical_relevance": "★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "Scopus収録文献7,119件の文献計量分析（1974-2024年、VOSviewer）"
     }
   ]
 }

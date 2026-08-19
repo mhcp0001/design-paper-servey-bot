@@ -22,7 +22,10 @@
       "summary_ja": "241のヨーロッパプラットフォームのウェブトラフィックデータを用い、複数プラットフォームが互いにコンプリメンターとして機能する「インタープラットフォーム・エコシステム」を発見し、ネットワーク融合・ユーザーコミュニティ主導・メタプラットフォーム・プラットフォーム連結という4戦略類型を提示した実証研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "欧州のプラットフォーム241件のウェブトラフィックデータ分析"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "41カ国2万1千社超のデータを用い、AIが「これまで困難だった知識の新規組み合わせ」を媒介してイノベーションを促進することを大規模実証した、AI×イノベーション戦略研究の重要論文。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "41カ国・21,000社超の企業データセット"
     },
     {
       "rank": 3,
@@ -82,7 +88,10 @@
       "summary_ja": "オランダの持続可能性志向スタートアップ31社46インタビューから、サステナブルBMIを誘発する外部トリガーをバリューネットワーク・制度レベルの2層7ドメインに整理した実証研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "オランダのサステナビリティ志向スタートアップ31社への半構造化インタビュー46件"
     },
     {
       "rank": 5,
@@ -101,7 +110,10 @@
       "summary_ja": "デジタル成熟度がソーシャルイノベーション創出能力を高める一方、ビジネスモデルイノベーション（BMI）は両者の関係を負に調整する「デジタルパラドックス」を実証し、同時並行的なデジタル変革とBMIが両利き経営の緊張をもたらすことを示した研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "企業対象の定量分析（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -120,7 +132,10 @@
       "summary_ja": "創造性・イノベーション管理研究においてデザインサイエンス手法を適切に選択・適用するための意思決定ツリーを提案し、研究目的に応じたアーティファクト設計の指針を与えた方法論論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（デザインサイエンス適用の決定木を提示）"
     },
     {
       "rank": 7,
@@ -139,7 +154,10 @@
       "summary_ja": "神経科学・システム理論・情報理論・量子場理論を横断し、複雑適応系における情報処理・可塑性・システム的整合性の生成メカニズムを解明、シナプス可塑性と組織学習の同形性を示す学際的フレームワークを提案した論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（神経科学・システム論・情報理論等の学際的統合）"
     },
     {
       "rank": 8,
@@ -180,7 +198,10 @@
       "summary_ja": "デジタルプロダクトパスポート（DPP）がファッション・化粧品業界のサーキュラーエコノミー・コラボレーティブエコシステムを支援する可能性を探り、DPP・オープンイノベーション・知識管理を統合した組織実践フレームを提案した研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（ファッション・化粧品産業を対象とした概念的検討）"
     },
     {
       "rank": 10,
@@ -199,7 +220,10 @@
       "summary_ja": "多事業企業がリソース再配分を集権・分権のいずれで行うべきかを、リソース代替可能性・事業多様性・環境ダイナミズムの3要因から規定した戦略論の実証研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクトに実証データの記述なし）"
     }
   ]
 }

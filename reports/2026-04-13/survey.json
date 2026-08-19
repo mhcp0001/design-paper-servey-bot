@@ -22,7 +22,10 @@
       "summary_ja": "コミットメント志向と協働志向という2種類のHRMシステムが、それぞれ内部知識獲得と外部知識活用という異なる経路を通じてSMEsのビジネスモデルイノベーション（BMI）を促進することを知識ベースビューで実証。HRM制度設計がBMI成否を規定する組織的前提条件であることを示す。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "high",
+      "author_count": 4,
+      "analysis_unit": "中国のSME192社の質問票調査"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "2005〜2023年の8,000万件超の学術論文データを用いて、AIが170以上の科学分野の知識創造（新規性・インパクト）に与える差異的効果を大規模実証分析。データ集約型・測定可能・定型タスク比率の高い分野でAIが最大効果を発揮する一方、理論主導型分野では効果が小さいという分野条件を特定した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "170超の科学分野・8,000万件超の学術出版データ（2005-2023年）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "「早すぎる失敗（フロップ）」と「遅すぎる撤退（見逃した機会）」という2種類の失敗経験が管理者のイノベーションプロジェクト継続意欲に与える非対称な効果をリスク選好変化理論で実証。フロップ経験は過剰なリスク回避バイアスを、機会損失経験は固執バイアスを生む非対称パターンを特定した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "マネジャーを対象とした定量分析（標本規模の記載なし）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "デザイナーとGenerative AIの共創においてクリエイティブコントロールの高さが創造性を高める場合と阻害する場合があることを実証し、デザイン経験レベルが境界条件として機能することを特定。AI協働ワークフロー設計でスキルレベル別の最適コントロール度を設定する必要性を示す。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "デザイナーとAIの共創に関する実証研究（標本規模の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "GenAIをデザイン思考の各フェーズに統合した教育事例研究で、アイデア量・多様性の増大と批判的評価能力の低下という二律背反的な認知効果を実証。GenAI時代のデザイン思考教育再設計とファシリテーター役割変容の方向性を提示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "高等教育におけるGenAI活用デザイン思考の教育事例研究（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "深圳市政府が主導する廃棄物管理の持続可能性実験を分析し、都市政府がトランジション実験のイニシエーターとなる際の成功条件（制度的コミットメント・適応型ガバナンス・マルチステークホルダー共創）を解明。政府主導型実験の特有の制度的ダイナミクスを社会技術移行理論に組み込む貢献をした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "深圳市政府主導の廃棄物管理実験1件の事例研究"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "文化・クリエイティブ産業（CCI）におけるAI研究の知的構造を体系的文献計量レビューで整理し、「創造性の再定義」「労働・著作権変容」「ビジネスモデル進化」の3クラスターを特定。統合理論の構築が急務であることを示し、管理・イノベーション研究者向けの未来研究アジェンダを提示した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "文献計量レビュー（対象文献数の記載なし）"
     },
     {
       "rank": 8,
@@ -177,7 +198,10 @@
       "summary_ja": "第四次産業革命の複雑性増大に対応する組織レジリエンス・フレームワークをデルファイ法で開発・検証。コア次元・因果的相互依存性・動態的評価メカニズムを統合したシステムベースの枠組みを提示し、複雑な社会技術システムを運営する企業の危機対応能力構築に実践的ツールを提供した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "デルファイ法による専門家合意形成（専門家数の記載なし）"
     },
     {
       "rank": 10,
@@ -196,7 +220,10 @@
       "summary_ja": "先進航空モビリティ（AAM）のSFO空港統合に向け、35名の専門家インタビューと32名参加のシナリオ計画ワークショップを組み合わせ、規制環境×技術成熟度の2軸で4つのシナリオ原型を構築し政策経路を提示。新興技術×規制不確実性の高い領域での戦略的フォーサイトとシナリオ計画手法の実践的参照事例となる。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "専門家インタビュー35名とシナリオプランニングワークショップ（ステークホルダー32名）"
     }
   ]
 }

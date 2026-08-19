@@ -1,6 +1,9 @@
 {
   "survey_date": "2026-06-29",
-  "date_range": {"from": "2026-06-22", "to": "2026-06-29"},
+  "date_range": {
+    "from": "2026-06-22",
+    "to": "2026-06-29"
+  },
   "papers": [
     {
       "rank": 1,
@@ -19,7 +22,10 @@
       "summary_ja": "レガシー企業がプラットフォーム戦略を実践するための4段階ジャーニー型マネジメントアーティファクト「Platform Thinking Journey」をデザインサイエンス研究で開発・検証し、GenAI共思考ツールを含む5つの設計原則を導出した。日立のような大規模製造業のプラットフォーム変革に直接適用可能な実践的知見を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "複数企業との3年間の協働によるデザインサイエンス研究（企業数の記載なし）"
     },
     {
       "rank": 2,
@@ -38,7 +44,10 @@
       "summary_ja": "ブラジルの病院内部でのデジタルプラットフォーム共創事例を社会交換理論で分析し、信頼・互恵性・権力・テクノストレスが内部変革共創プロセスを形成することを解明。Product Ownerによるソシオテクニカル媒介と持続的張力の管理必要性はB2B組織変革における共創設計に実践的示唆を与える。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "医療専門職のプラットフォーム共創に関する実証研究（標本規模の記載なし）"
     },
     {
       "rank": 3,
@@ -57,7 +66,10 @@
       "summary_ja": "北欧4カ国の持続可能性共創イニシアティブ比較から、ローカル実験から制度的スケールアップへの移行に不可欠な3つのネットワーク組織能力（ステークホルダー碇付け・プログラム統合・リソース調達）を特定し、3能力の相互依存と累積的積み重ねがスケール成功の鍵であることを示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "北欧の持続可能性イニシアティブの比較事例研究（事例数・対象国数の記載なし）"
     },
     {
       "rank": 4,
@@ -76,7 +88,10 @@
       "summary_ja": "イノベーション失敗を単一事象ではなく複数のイノベーション・ジャーニーにまたがる「カスケード型社会的プロセス」として再理論化し、抗生剤開発危機の事例から失敗の構成・センスメイキング・伝播メカニズムを解明。イノベーション・ポートフォリオ管理における早期警戒設計に理論的根拠を提供する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（イノベーション失敗の連鎖的プロセスとしての再概念化）"
     },
     {
       "rank": 5,
@@ -95,7 +110,10 @@
       "summary_ja": "ヨルダンSME248社を対象にGenAI能力→ビジネスモデルイノベーション→事業開発パフォーマンスの完全媒介連鎖を実証し、市場感知アジリティがその効果を正に調整することを確認。AI時代のBMI実践において組織的市場センシング機能強化がGenAI投資ROIを最大化する示唆を定量的に提供する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ヨルダンのSMEを対象とした横断的質問票調査（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -114,7 +132,10 @@
       "summary_ja": "建築起源のパターン言語が設計・生態学・ソフトウェア工学などの複数分野で60年間にわたり進化してきた系譜を学際的視点でマッピングし、生態学×デザインという新しい協働軸の可能性を示した。組織横断でデザイン知識を共有するためのパターン言語ツールの現代的再活用に示唆を与える。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "パターン・ランゲージ文献の分野横断レビュー（対象文献数の記載なし）"
     },
     {
       "rank": 7,
@@ -133,7 +154,10 @@
       "summary_ja": "米国上場企業991社のパネルデータにより、学術研究者を社外取締役に招く企業は科学基盤型ブレークスルーイノベーションが増加し、特に社内研究能力が高い企業でその効果が補完的に強まることを実証。コーポレートガバナンスレベルでの産学連携戦略設計に重要な実証的根拠を提供する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "米国上場のイノベーティブ企業991社のパネルデータ"
     },
     {
       "rank": 8,
@@ -152,7 +176,10 @@
       "summary_ja": "気候変動・生物多様性・汚染という三重の惑星危機への対応策が社会的抵抗に直面する問題に対し、政策担当者と実務者が社会的受容性を事前評価・向上させるためのヒューリスティック・診断・統合型トランジション・ガバナンス枠組みを提示。環境変革を伴うビジネスデザインの社会実装設計に有用。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（サステナビリティ転換の社会的受容性を評価する枠組みの提案）"
     },
     {
       "rank": 9,
@@ -171,7 +198,10 @@
       "summary_ja": "AI採用が急進的イノベーションへと連鎖するメカニズムをTOE×DCV統合モデルで解明し、センシング→シージング→再構成という多段階能力プロセスを実証。AI戦略立案において「AI導入=即効果」ではなく段階的組織能力構築が必要という実践的根拠を提供する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "AI導入企業を対象とした実証研究（標本規模の記載なし）"
     },
     {
       "rank": 10,
@@ -190,7 +220,10 @@
       "summary_ja": "オープンイノベーション研究が見落としてきた「OI関係の終結（Closing）」プロセスを企業・個人・技術の3レベルで論じる概念的枠組みを提示し、終結の意思決定・多重関係の解消・イノベーションエコシステムへの影響を理論化。エコシステム戦略において参入だけでなく退出設計の重要性を示す。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（オープンイノベーションの「終了」プロセスの理論化）"
     }
   ]
 }

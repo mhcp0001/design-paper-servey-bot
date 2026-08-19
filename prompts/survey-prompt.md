@@ -114,9 +114,14 @@ def restore_abstract(inv_idx):
 
 ### R6. 出典強度を記録する
 - `source_strength` フィールドに掲載誌の信頼度を記録する:
-  - `high` … 分野トップジャーナル（JPIM, Technovation, Research Policy 等）
-  - `medium` … 標準的な査読誌
-  - `low` … 査読品質に懸念のある出版社、紀要、プロシーディングス
+  - `high` … 分野トップジャーナル（JPIM, Research Policy, Technovation, SMJ, AMR,
+    Design Studies, Journal of Service Research 等）。厳格な査読を経る主要国際会議
+    （CHI 等）のフルペーパーもここに含む
+  - `medium` … 標準的な査読誌、および査読のある専門会議プロシーディングス
+    （Proceedings of DRS, Proceedings of the Design Society 等）
+  - `low` … 査読品質に懸念のある出版社、紀要、大学リポジトリ（未査読のワーキング
+    ペーパー）、実務誌・業界誌
+- **プロシーディングスを一律 `low` にしない**。査読の厳格さで判断する。
 - `low` の場合は `report.md` 側にも「出典強度: low（社内共有時は補強資料を推奨）」と明記する。
 
 ### 出力前セルフチェック

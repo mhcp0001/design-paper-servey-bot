@@ -31,15 +31,27 @@ SAMPLE_UNIT_RE = re.compile(
 N_EQUALS_RE = re.compile(r"[nN]\s*=\s*([0-9][0-9,]*)")
 
 # 論文が言及していないのに要約へ持ち込まれやすい流行語 (R5)
+# 表記ゆれ（"generative artificial intelligence"、ハイフン付き "machine-learning" 等）で
+# 取りこぼすと誤検知になるため、パターンは緩めに書く。
 BUZZWORDS = {
-    "AI": [r"\bAI\b", r"artificial intelligence"],
+    "AI": [r"\bAI\b", r"artificial intelligence", r"\bgenai\b"],
     "DX": [r"\bDX\b", r"digital transformation"],
-    "生成AI": [r"generative ai", r"\bLLM\b", r"large language model"],
-    "機械学習": [r"machine learning", r"\bML\b"],
+    "生成AI": [r"generative\s+(ai|artificial intelligence)", r"\bgenai\b",
+             r"\bLLM\b", r"large language model"],
+    "機械学習": [r"machine[-\s]learning", r"\bML\b"],
 }
 
 # 研究デザイン別の禁止表現 (R3)
-STRONG_CLAIMS = ["実証した", "実証", "証明した", "検証した"]
+# 「実証」を素で拾うと「実証事例」「実証研究」「実証優先アプローチ」といった名詞や手法名、
+# さらには「実証検証は今後の課題」（＝主張していない）まで誤検出する。
+# そこで非主張の複合語を先に除去してから、断定形だけを照合する。
+NON_CLAIM_COMPOUNDS = [
+    "実証研究", "実証事例", "実証データ", "実証分析", "実証的", "実証優先",
+    "実証検証", "未実証", "実証は今後", "検証は今後", "実証面",
+]
+STRONG_CLAIM_RE = re.compile(
+    r"(実証(した|している|し、|される|できた)|を実証|証明(した|している)|検証(した|している))"
+)
 WEAK_DESIGN_TYPES = {"conceptual", "review", "case study"}
 # type だけでは足りないため、要約側の語からも弱いデザインを推定する。
 # 「インタビュー」「エスノグラフィ」等は単独では弱さを意味しない（大規模質的研究もある）ため、
@@ -211,16 +223,18 @@ def check_paper(paper: dict, report_dir: str, use_pdf: bool, f: Findings) -> Non
                 f.warn(msg + " — PDF未取得のため要目視確認")
 
     # --- R3: 弱いデザインへの断定語 ---
-    hint_source = f"{summary} {paper.get('analysis_unit', '')}"
+    hint_source = f"{summary} {paper.get('analysis_unit') or ''}"
     is_weak = ptype in WEAK_DESIGN_TYPES or any(h in hint_source for h in WEAK_DESIGN_HINTS)
     if is_weak:
-        for claim in STRONG_CLAIMS:
-            if claim in summary:
-                f.warn(
-                    f"{tag}: type='{ptype}' で断定語 '{claim}' を使用（R3）"
-                    f" — 「示唆を得た」「質的に明らかにした」等が適切か要確認"
-                )
-                break
+        stripped = summary
+        for compound in NON_CLAIM_COMPOUNDS:
+            stripped = stripped.replace(compound, "")
+        m = STRONG_CLAIM_RE.search(stripped)
+        if m:
+            f.warn(
+                f"{tag}: type='{ptype}' で断定表現 '{m.group(0)}' を使用（R3）"
+                f" — 「示唆を得た」「質的に明らかにした」等が適切か要確認"
+            )
 
     # --- R1: abstract が原文かどうか（PDFがある場合のみ） ---
     if abstract.strip():

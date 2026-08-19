@@ -22,7 +22,10 @@
       "summary_ja": "GenAIをビジネスモデル・イノベーションに活用する戦略コンサルタントは「反省的拡張（reflexive augmentation）」という独自の人間-AI協働パターンを発展させており、信頼・スキル・付加価値・クライアント開示の4つのテンションがその実践を形成している。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "戦略コンサルタントへの多段階質的調査（インタビュー・フォーカスグループ・デジタルダイアリー、標本規模の記載なし）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "創発的イノベーションと意図的イノベーションを対立ではなく補完的関係として捉え直す進化モデルを提示し、組織の適応能力が「第三の空間」において両プロセスの統合によって構成されることを明らかにした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（Luhmannの適応過程論に基づく進化モデルの構築）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "AIをエンタープライズ・アーキテクチャに統合することで持続可能なイノベーション・エコシステムを推進できる一方、「公式フレームワークを敬遠しながらも建築的原則をダイナミック・ケイパビリティとして活用する」というEAパラドックスが実務で生じていることを混合研究法で明らかにした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "系統的文献レビューと業界専門家10名へのインタビュー（順次的混合手法）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "AI導入が進む企業ほどマネジャー職の求人が増加し、求められるスキルがルーティン管理からステークホルダー管理・創造性へシフトするという大規模実証結果は、AIが経営管理の高度化を促進することを示す。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "Lightcastの求人データに基づく企業のAI導入分析（標本規模の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "産業クラスターの実証データから、デジタル変革と持続可能性（ツインの移行）の統合が製造業の競争力向上に有効であることを示す一方、組織文化・投資の不確実性が実現を妨げる主要障壁であることを特定した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "産業クラスター1件の実証分析（標本規模の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "欧州10都市82件のインタビューに基づき、都市政府がデジタル移行と持続可能性移行を依然として弱く統合しているに過ぎず、効果的連携には水平・垂直調整能力と組織変革が必要と明らかにした。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "欧州10都市でのインタビュー82件と文書分析"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "オランダの都市変革政府プログラムを事例に、トランジション仲介機関が「エコロジー」として機能する際のオーケストレーション新次元（制度的記憶の維持とメタ知識の共有）を同定し、持続可能なトランジション加速への政策示唆を提示した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "オランダのトランジション仲介エコロジーの事例研究（標本規模の記載なし）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "ベトナム製造企業300社のデータをPLS-SEMで分析し、デジタル・イノベーションが組織アジリティを完全媒介変数として企業パフォーマンスを向上させることを実証した統合フレームワーク研究。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ベトナムの製造業300社の質問票調査（PLS-SEM）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "ソフト・システムズ方法論・計画的行動理論・LEGO SERIOUS PLAYを統合した参加型システム介入を食品・飲料SMEに実施し、行動変容の態度・規範・統制感を有意に改善できることを実証した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ベトナムの飲食SMEを対象とした参加型システム介入（参加者36名）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "ビジネスモデルのプロトタイピングと評価にシステムダイナミクスを活用したアクターベースのモデリングフレームワークを提案し、エコシステム視点からビジネスモデルの複雑な相互依存性を可視化・検証するための新たな方法論を提示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     }
   ]
 }

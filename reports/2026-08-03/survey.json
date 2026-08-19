@@ -22,7 +22,10 @@
       "summary_ja": "ラジカルイノベーション研究と戦略的リーダーシップ研究の理論的分断を架橋し、技術軌跡とリーダーの意思決定が相互規定する複合フレームワークを提唱する概念論文。長期イノベーション戦略の設計者に理論的基盤を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（急進的イノベーション研究と戦略的リーダーシップ研究の統合）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "再生可能エネルギー・電動モビリティ産業の欧州システムインテグレーターを対象に、BMIにおける「逆説カスケード」現象を縦断的に解明する。持続可能性志向B2B企業のビジネスモデル変革設計に直接活用できる知見を提供する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "欧州の再生可能エネルギー・電動モビリティのシステムインテグレーター1社の縦断的事例研究（インタビューと社内文書）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "イノベーション・エコシステムを固定的構造ではなく「組織化プロセス」として再定義し、異種アクター間の調整がいかに実践的に遂行・交渉されるかを記述する3つの理論レンズを提案する概念論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（イノベーションエコシステムのプロセス的定義と3つの理論レンズの提示）"
     },
     {
       "rank": 4,
@@ -79,12 +88,15 @@
       "summary_ja": "DC理論の創始者Teece自身がアルゴリズムによる地位不平等をダイナミック・ケイパビリティと汎用技術経済学から分析し、AI時代の競争メカニズムを論じる注目論文。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（Wu論文へのカウンターポイント、ダイナミックケイパビリティと汎用技術経済学の視点）"
     },
     {
       "rank": 5,
       "title": "Strategic leadership and organizational design: a review and research agenda",
-      "authors": "Clemens M. Brandstätter et al.",
+      "authors": "Clemens M. Brandstätter and Lorenz Graf-Vlachy",
       "journal": "Journal of Organization Design",
       "publication_date": "2026-07",
       "type": "review",
@@ -98,7 +110,10 @@
       "summary_ja": "戦略的リーダーシップと組織設計の交点を系統的文献レビューで整理し、リーダーが組織設計選択を通じて企業パフォーマンスに影響するメカニズムとフューチャーリサーチアジェンダを提示する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "medium",
+      "author_count": 2,
+      "analysis_unit": "系統的文献レビュー（対象文献数の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "LLMを「合成被験者」として戦略的相互作用（探索—活用ジレンマ）をシミュレートする新手法を提案し、人間実験と同様のパターンを再現できることを示す方法論論文。戦略シミュレーションへのAI活用に道を開く。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "LLMエージェントを用いたシミュレーション実験（探索-活用ジレンマ）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "フロントラインマネジャー51名への質的調査でAI実装における中間管理職の「触媒者」対「ボトルネック」役割を検討し、「AIレディネス」の構成要素を同定する実証研究。日本企業のAI導入変革管理に直接適用可能。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "フロントラインマネジャー・経営幹部51名の質的調査（theories-in-use アプローチ）"
     },
     {
       "rank": 8,
@@ -177,7 +198,10 @@
       "summary_ja": "Airbnbのケーススタディで、マルチサイドプラットフォームにおける「直接的顧客志向（DCO）」と「間接的顧客志向（ICO）」の2形態を提案し、複数ステークホルダー調整メカニズムを解明するサービス経営論文。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "Airbnb1社の質的単一事例研究（プラットフォーム文書とインタビューデータ）"
     },
     {
       "rank": 10,

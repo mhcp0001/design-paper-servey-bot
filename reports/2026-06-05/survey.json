@@ -19,10 +19,13 @@
       "pdf_url": "https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=4052&context=drs-conference-papers",
       "landing_page_url": "https://doi.org/10.21606/drs.2026.2017",
       "abstract": "Amidst the acceleration of internationalization, service innovation has emerged as a critical pathway for New Energy Vehicle (NEV) firms to attain sustainable growth. Adopting a dynamic capability view, this study examines how service design drives the formation of dynamic capabilities in the context of international service innovation. Through a case study of a leading Chinese NEV firm, the research identifies how designerly practices enable the sensing, seizing, and reconfiguring of capabilities needed for service innovation across markets. The findings reveal a service design-driven capability formation model that integrates user research, prototyping, and iterative co-creation to bridge local market needs with global service architecture.",
-      "summary_ja": "中国の新エネルギー車（NEV）企業を対象に、サービスデザインの実践がダイナミック・ケイパビリティの形成を通じて国際的なサービスイノベーションを促進するプロセスを実証した事例研究。",
+      "summary_ja": "中国の新エネルギー車（NEV）企業を対象に、サービスデザインの実践がダイナミック・ケイパビリティの形成を通じて国際的なサービスイノベーションを促進するプロセスを単一企業の事例から示した研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国の新エネルギー車（NEV）大手企業1社の事例研究"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "デジタル環境において、AIケイパビリティがマネジャーおよび組織のダイナミック・ケイパビリティを媒介・調整することでビジネスモデルイノベーションを促進するメカニズムを大規模定量調査で実証した研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "デジタル変革中の企業を対象とした質問票調査（構造方程式モデリング、標本規模の記載なし）"
     },
     {
       "rank": 3,
@@ -57,10 +63,13 @@
       "pdf_url": "https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=4230&context=drs-conference-papers",
       "landing_page_url": "https://doi.org/10.21606/drs.2026.2881",
       "abstract": "Steering sustainability transitions in complex organizations, such as hospitals, may benefit from iterative, situated, and participatory experimentation. Co-creation holds particular promise in this regard, as it can catalyze change by involving diverse stakeholders. Yet, the mechanisms through which designerly co-creation contributes to sustainability transitions in healthcare settings remain underexplored. Through multiple case studies in hospital settings, this paper develops the Pebble Effect model, illustrating how small-scale design interventions create ripple effects across organizational layers, enabling emergent and sustained sustainability transitions. Key factors include the cultivation of internal change agents and the design of post-intervention autonomy.",
-      "summary_ja": "病院という複雑な組織における持続可能性トランジションに、デザイン的コ・クリエーションが小石が水面に生む波紋のように変革の連鎖を生み出すプロセスを実証した研究。",
+      "summary_ja": "病院という複雑な組織における持続可能性トランジションに、デザイン的コ・クリエーションが小石が水面に生む波紋のように変革の連鎖を生み出すプロセスを複数の病院事例から示した研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "病院を対象とした複数事例研究（事例数の記載なし）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "公共部門のデザイン介入を市民向けサービス改善に留めず、内部管理システムと組織エコシステムの再構築に拡張した中国バスターミナルの事例研究。",
       "practical_relevance": "★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "中国・南海バスステーション1件の事例研究"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "システム思考を主軸とした大学院プログラムの開発過程を振り返り、学習者中心の設計が創発的イノベーションをいかに促進するかを論じた研究（Systems Research and Behavioral Science誌掲載）。",
       "practical_relevance": "★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "修士プログラム1件の開発に関する回顧的省察"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "多国籍企業がストラテジック・フォーサイトをエコ・イノベーションへの道筋として活用するメカニズムを実証的に分析した研究（Technovation誌掲載）。",
       "practical_relevance": "★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 7,
@@ -158,7 +176,10 @@
       "summary_ja": "内燃機関以降の時代に既存の自動車OEMがデザインイノベーション戦略を転換するための「知覚価値フレームワーク」（機能・感情・象徴・社会価値）を提案した概念的研究。",
       "practical_relevance": "★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（自動車デザインの知覚価値フレームワークの提案）"
     },
     {
       "rank": 9,
@@ -177,7 +198,10 @@
       "summary_ja": "循環型経済への移行（サーキュラー・トランジション）においてコ・クリエーションのインパクトをどう評価するかについて、既存フレームワークを比較分析し統合評価モデルを提案した研究。",
       "practical_relevance": "★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "既存評価フレームワークの系統的レビューと比較分析（対象数の記載なし）"
     },
     {
       "rank": 10,
@@ -196,7 +220,10 @@
       "summary_ja": "「グリーン成長」と「サフィシエンシー（十分性）経済」という2つの対照的なグローバル持続可能性シナリオをMORDREDモデルで定量化し、社会技術的トランジション戦略への示唆を導いた研究（Environmental Innovation and Societal Transitions誌掲載）。",
       "practical_relevance": "★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "MORDREDモデルによる世界持続可能性シナリオ2件の定量モデリング"
     }
   ]
 }

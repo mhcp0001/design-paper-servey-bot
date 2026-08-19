@@ -22,7 +22,10 @@
       "summary_ja": "GenAIをデザイン思考の発散・収束プロセスに統合した際の効果と限界を、71チーム・18企業を対象とした実証研究で明らかにし、チーム別の4つのエンゲージメントパターン（統合レベル×使用目的の2×2フレームワーク）を提示する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "イノベーションスプリント3回・学際チーム71組・企業パートナー18社の質的データ"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "サービス支配論理（SDL）の創始者Vargoが、AIを計算機械の属性としてではなくサービスエコシステムの創発的・関係的プロセスとして再概念化し、「適応と知性の生成的二重性」という新たな理論的基盤を提示する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（サービスドミナントロジックに基づく再概念化）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "スイスのSME経営幹部59名へのインタビューに基づくグラウンデッドセオリーで、循環型ビジネスモデルイノベーション（CBMI）を「感知→獲得→再構成」の3フェーズプロセスとして捉え、6つの主要経営者先行条件を特定した動的ケイパビリティモデルを提示する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "スイスSMEのトップマネジャー59名への深層インタビュー（グラウンデッドセオリー）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "グランドチャレンジの統治における戦略的フォーサイトの政策能力強化メカニズムを分析し、非線形・長期的政策課題へのSF活用の理論的基盤を提供する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "グランドチャレンジを分析単位とした検討（標本規模の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "デザイン思考とGenerative AIのケイパビリティが探索的イノベーション（exploration）と深化的イノベーション（exploitation）をどのように促進するかを実証的に解明し、人間と機械の知性統合の理論的基盤を提示する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "各国の競争政策の違いに対するプラットフォームMNEの戦略的対応を比較制度論で分析し、規制環境がデジタルプラットフォーム企業の行動をどう形成するかを明らかにする。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（プラットフォーム多国籍企業の比較的検討）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "欧州建設業の2040年に向けた持続可能性トランジションの代替シナリオをRohrbeckが探索的に構築し、デジタル化・サーキュラリティ・脱炭素化の複合的影響と不確実性を分析する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "建設業を対象とした2040年の探索的シナリオ分析（標本規模の記載なし）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "技術的品質（被引用数）と経済的価値（株式リターン）の両方が高い発明でも価値獲得パターンが大きく異なることを特許データで実証し、ブレークスルー発明の「創造と獲得の乖離」メカニズムを解明する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "米国上場企業に帰属する特許データ分析（標本規模の記載なし）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "スウェーデンのCLT（クロスラミネーティッドティンバー）イノベーションエコシステムのケーススタディを通じ、建設業における共同イノベーションを支える動的ケイパビリティと協働実践を特定する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": true
+      "pdf_downloaded": true,
+      "source_strength": "medium",
+      "author_count": 3,
+      "analysis_unit": "スウェーデンのCLT建設の探索的事例研究（インタビュー・フォーカスグループ・観察）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "新興市場におけるサステナビリティ主導のデジタルトランスフォーメーションが顧客体験に与える影響を、ビジネスモデルイノベーションと価値共創を媒介変数としたデュアルメディエーションモデルで実証する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "新興国のサービス業を対象とした定量分析（標本規模の記載なし）"
     }
   ]
 }

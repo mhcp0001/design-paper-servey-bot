@@ -22,7 +22,10 @@
       "summary_ja": "AIを「エピソード的な分析ツール」ではなく「戦略的意思決定を支える動的ケイパビリティ」として再定義し、センシング・シージング・変革の3機能を通じた意思決定品質向上フレームワークを提示する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "low",
+      "author_count": null,
+      "analysis_unit": "概念論文（AIを前提とした戦略的意思決定のダイナミックケイパビリティ枠組み）"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "177本の実証研究を統合し、組織における実験を「問題解決型」と「因果推論型」の2ストリームに整理。variation-selection-retentionフレームワークで組織学習・適応の統合モデルを構築する。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "統合的レビュー（対象文献数の記載なし）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "環境悪化が続く現状を打破するため「強いサステナビリティ」を志向するビジネスモデルの再構成フレームワークを提案。充足性志向モデルと再生型モデルをモジュール的に組み合わせ、実現を阻む3つのシステム的フィードバックを同定する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "統合的文献レビューとビジネスモデルのモジュール化分析（対象文献数の記載なし）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "知覚される互恵性とFAT原則（公正・説明責任・透明性）が消費者の情報共有意図とAI正当性認知を規定することを実証し、AI活用サービス設計の倫理的基盤を示す。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "消費者を対象とした定量分析（標本規模の記載なし）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "都市のネットゼロ移行に向けた参加型バックキャスティングに感情次元を統合した新手法を提案し、メルボルンのワークショップで実証。変革プロセスにおける感情的エンゲージメントの重要性を示す。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "メルボルンの都市地区1件を対象とした参加型バックキャスティング・ワークショップ（参加者数の記載なし）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "公共サービス企画における価値共創実践をプロジェクトマネジメント観点から分析し、2件の学校給食プロジェクトのアクションリサーチから実践的な共創フレームワークを提示する。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "ケベックの学校給食プロジェクト2件のアクションリサーチ（半構造化インタビュー29件と観察）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "AI能力（人的スキル・技術・データ駆動文化・組織学習）がSMEのサステナブル起業家目標（ESDG）達成に与える影響を実証し、環境の乱高下が中間変数として機能することを示す。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "SMEを対象とした定量分析（標本規模の記載なし）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "コミュニティ・コモンズの視点からグリーンコミュニティのサービスデザイン・タッチポイントを「公共型」と「個人型」に分類し、持続可能な地域サービス設計の概念フレームワークを提示する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（グリーンコミュニティのサービスデザイン・タッチポイント枠組みの提案）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "オーストラリアの窓産業を事例にマルチレベル・パースペクティブ（MLP）とロックイン機構を用いて住宅サステナビリティ移行を分析し、ニッチ×レジーム×システムの多次元的介入戦略を提示する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "オーストラリアの高性能窓産業1件の事例研究（マルチレベル・パースペクティブ）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "EU26カ国の首都を対象にクイントuple・ヘリックスモデルの5資本形態（自然・社会・知識・経済・ガバナンス）がスマートシティ指数・エコイノベーション指数と相関することを実証分析する。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "EU加盟26カ国の国別データ分析"
     }
   ]
 }

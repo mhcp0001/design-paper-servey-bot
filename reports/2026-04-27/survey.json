@@ -22,7 +22,10 @@
       "summary_ja": "AIと適応的組織設計を組み合わせることで、スケールとスコープのトレードオフを克服できることをByteDanceの縦断ケーススタディで実証。AIが多角化を通じて資源価値を増幅させるという逆説的な戦略ロジックを提示した。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "ByteDance1社の縦断的事例研究"
     },
     {
       "rank": 2,
@@ -41,7 +44,10 @@
       "summary_ja": "製造業SME 18社へのインタビューから、デジタルサービタイゼーションへの移行には「価値主導・人材主導・協働主導」の3次元の価値提案共創が鍵であることを示した実証研究。",
       "practical_relevance": "★★★★★",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "製造業SME18社のマネジャーへのインタビュー（探索的・アブダクティブ）"
     },
     {
       "rank": 3,
@@ -60,7 +66,10 @@
       "summary_ja": "既存のAIリスクアセスメント手法の限界（包括性の欠如・文脈感度不足・先見性の欠如）を克服するため、シナリオベースの社会技術的想起（SSE）という実践的手法を提案。AIの多様な社会的影響を先読みするための具体的ガイドブックも提供。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（シナリオベース社会技術構想法SSEの提案）"
     },
     {
       "rank": 4,
@@ -79,7 +88,10 @@
       "summary_ja": "フルーガルイノベーション（倹約的革新）とビジネスモデルイノベーションを同時に推進するための組織能力の違いを実証的に分析し、それらが企業競争力に与える貢献メカニズムを示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "記載なし（アブストラクト未取得）"
     },
     {
       "rank": 5,
@@ -98,7 +110,10 @@
       "summary_ja": "デジタルサービタイゼーションにおける「value-in-context（文脈的価値）」概念を提唱し、空間的拡張と時間的進化の2メカニズムから4種の価値文脈化タクソノミーを提示した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "概念論文（デジタルサービタイゼーションのvalue-in-context概念の提示）"
     },
     {
       "rank": 6,
@@ -117,7 +132,10 @@
       "summary_ja": "GenAIを「生産性ツール」ではなく「認知的協働者」として再定義し、アイデア生成・統合・戦略的フレーミング・ファシリテーションの4機能に対応した役割ベースの統合フレームワークを提案。GenAIが内発的動機を弱める「創造性パラドックス」も概念化した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer1",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "概念論文（創造性理論に基づくGenAI統合フレームワークの構築）"
     },
     {
       "rank": 7,
@@ -136,7 +154,10 @@
       "summary_ja": "「速い学習は探索を阻害する」という通説を覆し、タイムリーなパフォーマンスフィードバックが「ターゲット多様性」メカニズムを通じて速い学習と継続的探索を両立させることを示した計算論的研究。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "理論・モデル研究（組織学習ダイナミクスの形式的検討）"
     },
     {
       "rank": 8,
@@ -155,7 +176,10 @@
       "summary_ja": "サステナブルデザインの専門家・教育者との共創を通じて、環境危機対応に必要なデザイン能力4群（システム思考・戦略的フォーサイト・再生デザイン・場所ベース協働）を特定した。",
       "practical_relevance": "★★★★☆",
       "search_layer": "layer2",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "medium",
+      "author_count": null,
+      "analysis_unit": "デザイン教育者・サステナブルデザイン実務家との共同デザインによる教育プログラム2件の開発（標本規模の記載なし）"
     },
     {
       "rank": 9,
@@ -174,7 +198,10 @@
       "summary_ja": "新興国農村部の医療エコシステムにおけるテクノロジー主導型社会イノベーションを、グラウンデッドセオリーで解明。制度的空白を補う形での社会的価値共創のエコシステムフレームワークを提示した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "技術活用型社会イノベーションのエコシステム枠組みの提示（標本規模の記載なし）"
     },
     {
       "rank": 10,
@@ -193,7 +220,10 @@
       "summary_ja": "海運業の脱炭素化において帆船技術を現代に復活させる「サステナブル・レトロイノベーション」概念を提唱し、9つのセールカーゴ事業分析から「主流模倣」と「急進的対抗」の2戦略と4プロセスを特定した。",
       "practical_relevance": "★★★☆☆",
       "search_layer": "layer3",
-      "pdf_downloaded": false
+      "pdf_downloaded": false,
+      "source_strength": "high",
+      "author_count": null,
+      "analysis_unit": "帆走貨物船イニシアティブ9件の実証的探索"
     }
   ]
 }
